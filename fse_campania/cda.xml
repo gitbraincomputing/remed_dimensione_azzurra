@@ -1,0 +1,83 @@
+<ClinicalDocument xmlns="urn:hl7-org:v3" xmlns:mif="urn:hl7-org:v3/mif" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 CDA.xsd">
+	<realmCode code="IT" />
+    <typeId root="2.16.840.1.113883.1.3" extension="POCD_MT000040UV02"/>
+    <templateId extension="1.1" root="2.16.840.1.113883.2.9.10.1.1"></templateId>
+    <id assigningAuthorityName="Linea Medica" extension="150206150841_2" root="2.16.840.1.113883.2.9.2.150.4.4"></id>    
+    <code code="11488-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"></code>    
+    <title>Visita specialistica fisiatrica</title>
+    <effectiveTime value="20221125093600+0100"/>    
+    <confidentialityCode code="N" codeSystem="2.16.840.1.113883.5.25" codeSystemName="HL7 Confidentiality" displayName="Normal"/>
+    <setId root="2.16.840.1.113883.2.9.2.150.4.4" extension="150206150841" assigningAuthorityName="Regione Sardegna"/>
+    <versionNumber value="2"/>
+    <recordTarget>
+        <patientRole>
+            <id assigningAuthorityName="Ministero Economia e Finanze" extension="CMPBRN00A01G230H" root="2.16.840.1.113883.2.9.4.3.2"></id>            
+            <addr use="HP">
+                <streetName>Via Fasulla</streetName>
+                <city>Pagani</city>
+                <country>(SA)</country>	
+                <postalCode>84016</postalCode>
+            </addr>
+            <telecom use="HP" value="tel:123456"></telecom>
+            <patient>
+                <name>
+                    <family>Computing</family>
+                    <given>Brain</given>
+                </name>
+                <administrativeGenderCode code="M" codeSystem="2.16.840.1.113883.5.1" codeSystemName="HL7 AdministrativeGender" displayName="Maschio"></administrativeGenderCode>
+                <birthTime value="20000101"></birthTime>		
+            </patient>
+        </patientRole>
+    </recordTarget>
+    <author>
+        <time value="20221125093600+0100"></time> 
+        <assignedAuthor>
+            <id assigningAuthorityName="Ministero Economia e Finanze" extension="DSNPSQ66M50C129C" root="2.16.840.1.113883.2.9.4.3.2"></id>
+            <telecom use="HP" value="mailto://desenapasqua@libero.it"></telecom>
+            <assignedPerson>
+                <name>
+                    <given>Pasqua</given>
+                    <family>De Sena</family>
+                    <prefix>Dott.</prefix>
+                </name>
+            </assignedPerson>
+        </assignedAuthor>
+    </author>
+	<custodian>
+		<assignedCustodian>
+			<representedCustodianOrganization>
+				<id root="2.16.840.1.113883.2.9.2.150201" extension="150206150841" />	
+				<name>Linea Medica</name>
+			</representedCustodianOrganization>
+		</assignedCustodian>
+	</custodian>
+	<component>
+		<structuredBody moodCode="EVN" classCode="DOCBODY">
+			<component typeCode="COMP">
+				<section ID="QUESITO_DIAGNOSTICO">
+					<code code="47045-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" codeSystemVersion="2.64" displayName="Referto"/>
+					<title>Visita specialistica fisiatrica</title>
+					<text> 
+						<paragraph> 
+							##valori_compilati_modulo##
+						</paragraph> 
+					</text> 
+				</section>
+			</component>
+		</structuredBody>
+	</component>
+	<legalAuthenticator>
+		<time value="20221125093600+0100"/>
+		<signatureCode code="S"/>
+		<assignedEntity>
+			<id root="2.16.840.1.113883.2.9.4.3.2" extension="FNGCML93T57E131J"/>
+			<assignedPerson>
+				<name>
+					<prefix>Dott.</prefix>
+					<given>Carmela</given>
+					<family>Fiengo</family>
+				</name>
+			</assignedPerson>
+		</assignedEntity>
+	</legalAuthenticator>
+</ClinicalDocument>

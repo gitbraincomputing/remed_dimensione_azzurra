@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns="http://statoconsensiricevuta.xsd.fse.ini.finanze.it" xmlns:td="http://tipodatistatoconsensi.xsd.fse.ini.finanze.it" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://statoconsensiricevuta.xsd.fse.ini.finanze.it" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:import namespace="http://tipodatistatoconsensi.xsd.fse.ini.finanze.it" schemaLocation="TipiDatiStatoConsensi.xsd"/>
+	<xs:annotation>
+		<xs:documentation>Versione 1.2</xs:documentation>
+	</xs:annotation>
+	<xs:element name="StatoConsensiRicevuta">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Esito" type="td:codEsitoType">
+					<xs:annotation>
+						<xs:documentation>Esito della transazione</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="ElencoErrori" type="td:elencoErroriType" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Ripetizione di Errore</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="IdentificativoAssistitoConsenso" type="td:stringTypeMax16" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Codice fiscale dell'assistito a cui si riferisce la richiesta</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="ListaConsensi" type="td:elencoConsensoType" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Consenso, si ripete per le varie tipologie</xs:documentation>
+					</xs:annotation>
+				</xs:element>			
+				<xs:element name="IdentificativoInformativaConsensi" type="td:stringTypeMax256" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Identificativo dell'informativa</xs:documentation>
+					</xs:annotation>
+				</xs:element>	
+				<xs:element name="IdentificativoInformativaCorrente" type="td:stringTypeMax256" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Identificativo dell'informativa</xs:documentation>
+					</xs:annotation>
+				</xs:element>	
+				<xs:element name="OpzioniResponse" type="td:opzioniType" maxOccurs="unbounded" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Elenco campi opzionali</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

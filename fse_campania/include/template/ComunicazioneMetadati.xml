@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+                   xmlns:ns1="http://comunicazionemetadatirichiesta.xsd.fse.ini.finanze.it"
+                   xmlns:ns2="http://tipodaticomunicazionemetadati.xsd.fse.ini.finanze.it">
+    <SOAP-ENV:Body>
+        <ns1:ComunicazioneMetadatiRichiesta>
+            <ns1:IdentificativoUtente>##identificativoUtente##</ns1:IdentificativoUtente>
+            <ns1:pinCode>##pinCode##</ns1:pinCode>
+            <ns1:IdentificativoOrganizzazione>##identificazioneOrgan##</ns1:IdentificativoOrganizzazione>
+            <ns1:StrutturaUtente>##strutturaUtente##</ns1:StrutturaUtente>
+            <ns1:RuoloUtente>##ruoloUtente##</ns1:RuoloUtente>
+            <ns1:ContestoOperativo>##contestoOperativo##</ns1:ContestoOperativo>
+            <ns1:TipoDocumento>##tipoDocumento##</ns1:TipoDocumento>
+            <ns1:IdentificativoAssistito>##identificativoAssistito##</ns1:IdentificativoAssistito>
+            <ns1:PresaInCarico>##presaInCarico##</ns1:PresaInCarico>
+            <ns1:TipoAttivita>##tipoAttivita##</ns1:TipoAttivita>
+            <ns1:Metadato>
+                <ns2:TipologiaStrutturaProdDoc>##tipologiaStruttura##</ns2:TipologiaStrutturaProdDoc>
+                <ns2:TipoMime>##tipoMime##</ns2:TipoMime>
+                <ns2:LivelloConfidenzialita>##livelloConfidenzialita##</ns2:LivelloConfidenzialita>
+                <ns2:TipologiaDocumentoAlto>##documentoAlto##</ns2:TipologiaDocumentoAlto>
+                <ns2:TipologiaDocumentoMedio>##documentoMedio##</ns2:TipologiaDocumentoMedio>
+                <ns2:TipologiaDocumentoBasso>##documentoBasso##</ns2:TipologiaDocumentoBasso>
+                <ns2:RiferimentoDocumento>##riferimentoDocumento##</ns2:RiferimentoDocumento>
+                <ns2:DataValidazioneDocumento>##dataValidazione##</ns2:DataValidazioneDocumento>
+                <ns2:RuoloAutore>##ruoloAutore##</ns2:RuoloAutore>
+                <ns2:IstituzioneAutore>##istituzioneAutore##</ns2:IstituzioneAutore>
+                <ns2:CodiceFiscaleAutore>##cfAutore##</ns2:CodiceFiscaleAutore>
+                <ns2:TelecAutore>##telecAutore##</ns2:TelecAutore>
+                <ns2:AssettoOrganizzativo>##assettoOrganizzazione##</ns2:AssettoOrganizzativo>
+                <ns2:TipoAttivitaClinica>##attivitaClinica##</ns2:TipoAttivitaClinica>
+                <ns2:DataInizioPrestazione>##dataInizioPrest##</ns2:DataInizioPrestazione>
+                <ns2:DataFinePrestazione>##dataFinePrest##</ns2:DataFinePrestazione>
+                <ns2:RappresentanteLegale>##rappresentanteLegale##</ns2:RappresentanteLegale>
+                <ns2:ConservazioneSost>##conservazioneSost##</ns2:ConservazioneSost>
+            </ns1:Metadato>
+            <ns1:documento><inc:Include href="cid:##cidfile##" xmlns:inc="http://www.w3.org/2004/08/xop/include"/></ns1:documento>
+        </ns1:ComunicazioneMetadatiRichiesta>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

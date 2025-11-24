@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin: 0;
+}
+
+a{
+	border: none;
+}
+
+img{
+	border: none;
+}
+
+#myForm .titoloalternativo{
+	padding-top: 10px;
+	width: 100%;
+	float: left;
+}
+
+.titoloalternativo h1{
+	border-top: 1px dashed #666666;
+	clear:both;
+	width: 100%;
+	margin-top: 10px;
+	padding-top: 10px;
+	font-size: 22px;
+	padding-bottom: 0px;
+}
+
+.tablesorter{
+	padding-bottom:10px;
+}
+.tablesorter img{
+	display: none;
+}
+
+
+
+.tablesorter tr td{
+	border-bottom: 1px dotted #CCCCCC;
+	padding: 5px 0;
+}
+
+.space_top_print{
+	padding-top: 20px !important;
+}
+
+#myForm .riga{
+	width: 100%;
+	float: left;
+	border-bottom: 1px dotted #CCCCCC;
+	padding: 2px 0;
+}
+#myForm .rigo_mask {
+	width: 33%;
+	float: left;
+}
+#myForm .rigo_big{
+	width: 100% !important;
+}
+#myForm .rigo_mask .testo_mask{
+	font-weight: bold;
+}
+.titolo_pag h1{
+	font-size: 17px;
+	border-top: 1px dotted #CCCCCC;
+	border-bottom: 1px dotted #CCCCCC;
+	float: left;
+	width: 100%;
+}
+
+#wrap-content{
+	width: auto !important;
+}
+
+	div#wrap-all #menu{
+		display:none;
+		}
+		div#wrap-all #menu *{
+		display:none;
+		}
+		
+
+#barratop, #barratop *, .stampa, .comandi div, .foto, .no_print, span.no_print, .no_print *, #no_print{
+display:none !important;
+}
+
+.contenitore-riga{
+	width: 100%;
+	float:left;
+	padding-bottom: 20px;
+	margin-bottom: 10px;
+}
+.contenitore-riga .box{
+	width: 50%;
+	float: left
+}

@@ -1,0 +1,47 @@
+/* CSS Document */
+
+html, body {
+height: 100%;
+}
+
+body{
+font-family:Arial, Helvetica, sans-serif;
+font-size:80%;
+background-color:#eee;
+}
+legend{font-weight:bold;}
+#container{ 
+background-color:#fff;
+height:100%;
+min-height: 100%;  
+}
+#header{
+background-color:#009900;
+padding:10px;
+color:#FFFFFF;
+}
+#menubar{
+background-color:#009900;
+height:30px;
+}
+
+#content{ 
+background-color:#FFFFFF;
+padding: 30px;
+height:100%;
+min-height: 100%; 
+}
+
+#footer{
+background-color:#009900;
+color:#FFFFFF;
+text-align:center;
+padding: 20px;
+}
+#footer a{
+color:#FFFFFF;
+text-decoration:none;
+}
+#footer a:hover{
+text-decoration:underline;
+}

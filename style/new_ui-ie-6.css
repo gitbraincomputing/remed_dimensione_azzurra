@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/**********************************
+	tabs
+**********************************/
+#container-2 .tabs-nav a span{
+	display: block;
+    padding: 0 0px;
+    background: none;
+	border: none;
+	min-width: 0;
+	height: 10px; /* IE 6 treats height as min-height */
+	margin-bottom: 0px;
+	width: auto;
+	float: left;
+}
+/**********************************
+	fine tabs
+**********************************/
+
+div#wrap-all #menu{
+	position: ;
+}
+
+div#barratop{
+	position: ;
+}

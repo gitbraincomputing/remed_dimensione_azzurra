@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns="http://comunicazioneinformativaricevuta.xsd.fse.ini.finanze.it" xmlns:td="http://tipodaticomunicazioneinformativa.xsd.fse.ini.finanze.it" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://comunicazioneinformativaricevuta.xsd.fse.ini.finanze.it" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:import namespace="http://tipodaticomunicazioneinformativa.xsd.fse.ini.finanze.it" schemaLocation="TipiDatiComunicazioneInformativa.xsd"/>
+	<xs:annotation>
+		<xs:documentation>Versione 1.2</xs:documentation>
+	</xs:annotation>
+	<xs:element name="ComunicazioneInformativaRicevuta">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Esito" type="td:codEsitoType">
+					<xs:annotation>
+						<xs:documentation>Esito della transazione</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="ElencoErrori" type="td:elencoErroriType" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Ripetizione di Errore</xs:documentation>
+					</xs:annotation>
+				</xs:element>		
+				<xs:element name="IdentificativoRegione" type="td:stringType3" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Codifica secondo la  Tabella 5.4-3 del documento di Affinity Domain</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="IdentificativoInformativaSottomessa" type="td:stringTypeMax256" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Identificativo dell'informativa sottomessa</xs:documentation>
+					</xs:annotation>
+				</xs:element>	
+				<xs:element name="OpzioniResponse" type="td:opzioniType" maxOccurs="unbounded" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Elenco campi opzionali</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

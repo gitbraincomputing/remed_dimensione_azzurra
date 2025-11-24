@@ -1,0 +1,70 @@
+body {
+	margin: 0;
+	text-align: left;
+	background-color: #FFF;
+	font-family: Arial, Sans-Serif;
+	font-size: 0.75em;
+	background: #d6dde5;
+	overflow-x: auto;
+	overflow-y: scroll;
+}
+
+.div-tablet {
+	background-color: white;
+	border: 0px solid;
+	border-radius: 30px;
+	padding: 4px 7px;
+	width: fit-content;	
+	text-align: center;
+	margin: 20px 40px;
+	display: inline-table;
+	cursor: pointer;
+	transition: box-shadow .1s;
+}
+
+.div-tablet:hover {
+	box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+	
+	
+.img-header {
+	width: 250px;
+	border-radius: 39px;
+	border: 0px solid;
+	margin-top: 40px;
+}
+
+.img-tablet {
+	width: 150px;
+	margin: 20px 5px 20px 20px;
+}
+
+.otp {
+	width: 50px;
+	height: 50px;
+	border: solid 1px #cacaca;
+	font-size: 24px;
+	font-weight: 900;
+	margin-right: .25rem;
+	margin-left: .25rem;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.btn_recupera_file {
+	display: block;
+	width: fit-content;
+	background-color: #8cc152;
+	border-radius: 10px;
+	border: 1px solid transparent;
+	margin: 0 auto;
+	padding: 16px 20px;
+	color: #fff;	
+	font-size: 18px;
+	font-weight: 700;
+	text-align: center;
+	text-decoration: none;
+}

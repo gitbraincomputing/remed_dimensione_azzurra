@@ -1,0 +1,159 @@
+<?
+include_once('include/functions.inc.php');
+include_once('include/dbengine.inc.php');
+$id_permesso = $id_menu = 66;
+$tablename = 'tbl_motivo_trattamento';
+include_once('include/function_page.php');
+
+/************************************************************************
+* funzione del_files()         						*
+*************************************************************************/
+function del_motivazione($id) {
+	global $tablename;
+	$ope = $_SESSION['UTENTE']->get_userid();
+	
+	$conn = db_connect();
+	$query = "DELETE FROM $tablename WHERE id='".$id."'";	
+	$result = mssql_query($query, $conn);	
+	exit();
+}
+
+function create()
+{
+global $tablename;
+	$conn = db_connect();
+		$nome = pulisci($_POST['nome']);
+		$descr = pulisci($_POST['descr']);
+		$opeins=$_SESSION['UTENTE']->get_userid();
+		$query = "INSERT INTO $tablename (motivazione,descrizione) VALUES('$nome','$descr')";
+		$result = mssql_query($query, $conn);
+		if(!$result) 
+			{
+		echo ("no");
+		exit();
+		die();
+		}
+	echo("ok;;1;lista_motivazioni_dt.php");	
+	exit();
+}
+
+
+function update($id)
+{
+global $tablename;
+	$conn = db_connect();
+
+	$nome = pulisci($_POST['nome']);
+	$descr = pulisci($_POST['descr']);
+	$opeins=$_SESSION['UTENTE']->get_userid();	
+	$query = "UPDATE $tablename SET motivazione='$nome',descrizione='$descr' WHERE id='$id'";
+	$result = mssql_query($query, $conn);
+	if(!$result)
+		{
+		echo ("no");
+		exit();
+		die();
+		}
+	// scrive il log
+	//scrivi_log ($id,$tablename,'agg','id');	
+	
+	echo("ok;;1;lista_motivazioni_dt.php");	
+	exit();
+
+}
+
+function confirm_del($id) {
+
+	
+}
+
+
+function del($id) {
+
+	
+
+}
+
+
+
+if(isset($_SESSION['UTENTE'])) {
+
+	
+	if(!isset($do)) $do='';
+	$back = "main.php";
+
+	// verifica i permessi
+	if(in_array($id_permesso, $_SESSION['PERMESSI'])) {
+
+		if (empty($_POST)) $_POST['action'] = "";
+
+		
+		switch($_POST['action']) {
+
+			case "create":
+				// verifica i permessi..
+				if(!$_SESSION['UTENTE']->controlla_permessi($id_permesso, 1))
+					error_message("Permessi insufficienti per questa operazione!");
+					else create();
+			break;
+
+			case "update":
+				// verifica i permessi..
+				if(!$_SESSION['UTENTE']->controlla_permessi($id_permesso, 2))
+					error_message("Permessi insufficienti per questa operazione!");
+					else update($_POST['id']);
+			break;
+
+			case "del":
+				// verifica i permessi..
+				if(!$_SESSION['UTENTE']->controlla_permessi($id_permesso, 3))
+					error_message("Permessi insufficienti per questa operazione!");
+					else if($_POST['choice']=="si") del($_REQUEST['id']);
+			break;
+		}
+		if($_REQUEST['action']=="del_motivazione"){
+			if(!$_SESSION['UTENTE']->controlla_permessi($id_permesso, 2))
+					error_message("Permessi insufficienti per questa operazione!");
+					else del_motivazione($_REQUEST['id_motivazione']);
+		}
+			
+		switch($do) {
+
+			case "add":
+				// verifica i permessi..
+				if(!$_SESSION['UTENTE']->controlla_permessi($id_permesso, 1))
+					error_message("Permessi insufficienti per questa operazione!");
+					else add();
+			break;
+
+			case "edit":
+				// verifica i permessi..
+				if(!$_SESSION['UTENTE']->controlla_permessi($id_permesso, 2))
+					error_message("Permessi insufficienti per questa operazione!");
+					else edit($_REQUEST['id']);
+			break;
+
+			case "confirm_del":
+				confirm_del($_REQUEST['id']);
+			break;
+
+			case "logout":
+			logout();
+			break;
+
+			default:
+				show_list();
+			break;
+		}
+			html_footer();
+	}
+	else { error_message("non hai i permessi per visualizzare questa pagina!"); go_home();}
+
+} else {
+	ob_start();
+	Header("Location: index.php");
+	ob_end_flush();
+}
+
+?>
+

@@ -1,0 +1,110 @@
+Per i seguenti campi:
+
+- TipologiaStrutturaProdDoc -> XDSDocumentEntry.healthcareFacilityTypeCode (AffinityDomainItalia_Versione 2.1.pdf)
+- AssettoOrganizzativo -> XDSDocumentEntry.practiceSettingCode (AffinityDomainItalia_Versione 2.1.pdf)
+- TipoAttivitaClinica -> XDSSubmissionSet.contentTypeCode (AffinityDomainItalia_Versione 2.1.pdf)
+
+per come impostarli e sul loro significato fare riferimento al documento "documentiComuni\documentazione\DocumentiAgID\AffinityDomainItalia_Versione 2.1.pdf"
+
+CONSIDERAZIONI REGIONALI: Per PATIENT SUMMARY e REFERTO DI LABORATORIO si consiglia fortemente il formato CDA2.
+
+
+DEFINIZIONE DELLE VARIE TIPOLOGIE DI DOCUMENTO SUL TRACCIATO DI COMUNICAZIONE METADATI
+----------------------------------------------------------------------------------------------------------------------------
+
+	VERBALE DI PRONTO SOCCORSO IN PDF
+	----------------------------------------------------------------
+	TipoMime->application/pdf
+	TipologiaDocumentoAlto->REF
+	TipologiaDocumentoMedio->59258-4
+	TipologiaDocumentoBasso->PDF
+
+	VERBALE DI PRONTO SOCCORSO IN CDA2
+	----------------------------------------------------------------
+	TipoMime->text/x-cda-r2+xml
+	TipologiaDocumentoAlto->REF
+	TipologiaDocumentoMedio->59258-4
+	TipologiaDocumentoBasso->2.16.840.1.113883.2.9.10.1.6.1
+
+----------------------------------------------------------------------------------------------------------------------------
+
+	LETTERA DI DIMISSIONE OSPEDALIERA IN PDF
+	----------------------------------------------------------------
+	TipoMime->application/pdf
+	TipologiaDocumentoAlto->LDO
+	TipologiaDocumentoMedio->34105-7
+	TipologiaDocumentoBasso->PDF
+
+	LETTERA DI DIMISSIONE OSPEDALIERA IN CDA2
+	----------------------------------------------------------------
+	TipoMime->text/x-cda-r2+xml
+	TipologiaDocumentoAlto->LDO
+	TipologiaDocumentoMedio->34105-7
+	TipologiaDocumentoBasso->2.16.840.1.113883.2.9.10.1.5
+
+----------------------------------------------------------------------------------------------------------------------------
+
+	REFERTO DI SPECIALISTICA AMBULATORIALE IN PDF (NO DI LABORATORIO, NO DI RADIOLOGIA)
+	----------------------------------------------------------------
+	TipoMime->application/pdf
+	TipologiaDocumentoAlto->REF
+	TipologiaDocumentoMedio->11488-4
+	TipologiaDocumentoBasso->PDF
+	
+	REFERTO DI SPECIALISTICA AMBULATORIALE IN CDA2 (NO DI LABORATORIO, NO DI RADIOLOGIA)
+	----------------------------------------------------------------
+	TipoMime->text/x-cda-r2+xml
+	TipologiaDocumentoAlto->REF
+	TipologiaDocumentoMedio->11488-4
+	TipologiaDocumentoBasso->2.16.840.1.113883.2.9.10.1.9.1
+
+----------------------------------------------------------------------------------------------------------------------------
+
+	PATIENT SUMMARY IN PDF
+	----------------------------------------------------------------
+	TipoMime->application/pdf
+	TipologiaDocumentoAlto->SUM
+	TipologiaDocumentoMedio->60591-5
+	TipologiaDocumentoBasso->PDF
+	
+	PATIENT SUMMARY IN CDA2
+	----------------------------------------------------------------
+	TipoMime->text/x-cda-r2+xml
+	TipologiaDocumentoAlto->SUM
+	TipologiaDocumentoMedio->60591-5
+	TipologiaDocumentoBasso->2.16.840.1.113883.2.9.10.2.4.1.1
+
+----------------------------------------------------------------------------------------------------------------------------
+	
+	REFERTO DI RADIOLOGIA IN PDF
+	----------------------------------------------------------------
+	TipoMime->application/pdf
+	TipologiaDocumentoAlto->REF
+	TipologiaDocumentoMedio->68604-8
+	TipologiaDocumentoBasso->PDF
+
+
+	REFERTO DI RADIOLOGIA IN CDA2
+	----------------------------------------------------------------
+	TipoMime->text/x-cda-r2+xml
+	TipologiaDocumentoAlto->REF
+	TipologiaDocumentoMedio->68604-8
+	TipologiaDocumentoBasso->2.16.840.1.113883.2.9.10.1.7.1
+
+----------------------------------------------------------------------------------------------------------------------------
+
+	REFERTO DI LABORATORIO IN PDF
+	----------------------------------------------------------------
+	TipoMime->application/pdf
+	TipologiaDocumentoAlto->REF
+	TipologiaDocumentoMedio->11502-2
+	TipologiaDocumentoBasso->PDF
+
+	REFERTO DI LABORATORIO IN CDA2
+	----------------------------------------------------------------
+	TipoMime->text/x-cda-r2+xml
+	TipologiaDocumentoAlto->REF
+	TipologiaDocumentoMedio->11502-2
+	TipologiaDocumentoBasso->2.16.840.1.113883.2.9.10.1.1
+
+----------------------------------------------------------------------------------------------------------------------------

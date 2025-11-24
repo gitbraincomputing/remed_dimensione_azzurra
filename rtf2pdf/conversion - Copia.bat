@@ -1,0 +1,1 @@
+soffice "-env:UserInstallation=file://C:/web/Republic/rtf2pdf/temp" --headless --convert-to pdf:writer_pdf_Export C:/web/republic/rtf2pdf/modulo_d984dd9d-9ba6-a002-bfee-6377a9b50655.rtf --outdir C:/web/republic/rtf2pdf

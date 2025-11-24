@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions xmlns:ricevutans="http://cancellazionemetadatiricevuta.xsd.fse.ini.finanze.it" xmlns:richiestans="http://cancellazionemetadatirichiesta.xsd.fse.ini.finanze.it" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://cancellazionemetadati.wsdl.fse.ini.finanze.it" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://cancellazionemetadati.wsdl.fse.ini.finanze.it">
+	<wsdl:types>
+		<xsd:schema elementFormDefault="qualified">
+			<xsd:import namespace="http://cancellazionemetadatirichiesta.xsd.fse.ini.finanze.it" schemaLocation="CancellazioneMetadatiRichiesta.xsd"/>
+		</xsd:schema>
+		<xsd:schema elementFormDefault="qualified">
+			<xsd:import namespace="http://cancellazionemetadatiricevuta.xsd.fse.ini.finanze.it" schemaLocation="CancellazioneMetadatiRicevuta.xsd"/>
+		</xsd:schema>
+	</wsdl:types>
+	<wsdl:message name="ricevuta">
+		<wsdl:part name="CancellazioneMetadatiRicevuta" element="ricevutans:CancellazioneMetadatiRicevuta"/>
+	</wsdl:message>
+	<wsdl:message name="richiesta">
+		<wsdl:part name="CancellazioneMetadatiRichiesta" element="richiestans:CancellazioneMetadatiRichiesta"/>
+	</wsdl:message>
+	<wsdl:portType name="cancellazioneMetadatiPT">
+		<wsdl:operation name="cancellazioneMetadati">
+			<wsdl:input message="tns:richiesta"/>
+			<wsdl:output message="tns:ricevuta"/>
+		</wsdl:operation>
+	</wsdl:portType>
+	<wsdl:binding name="cancellazioneMetadatiBinding" type="tns:cancellazioneMetadatiPT">
+		<soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+		<wsdl:operation name="cancellazioneMetadati">
+			<soap:operation soapAction="http://cancellazionemetadati.wsdl.fse.ini.finanze.it/CancellazioneMetadati"/>
+			<wsdl:input>
+				<soap:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal"/>
+			</wsdl:output>
+		</wsdl:operation>
+	</wsdl:binding>
+	<wsdl:service name="fseCancellazioneMetadati">
+		<wsdl:port name="fseCancellazioneMetadati" binding="tns:cancellazioneMetadatiBinding">
+			<soap:address location="http://localhost:9080/FseInsServicesWeb/services/fseCancellazioneMetadati"/>
+		</wsdl:port>
+	</wsdl:service>
+</wsdl:definitions>

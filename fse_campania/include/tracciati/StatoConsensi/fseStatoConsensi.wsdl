@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions xmlns:ricevutans="http://statoconsensiricevuta.xsd.fse.ini.finanze.it" xmlns:richiestans="http://statoconsensirichiesta.xsd.fse.ini.finanze.it" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://statoconsensi.wsdl.fse.ini.finanze.it" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://statoconsensi.wsdl.fse.ini.finanze.it">
+	<wsdl:types>
+		<xsd:schema elementFormDefault="qualified">
+			<xsd:import namespace="http://statoconsensirichiesta.xsd.fse.ini.finanze.it" schemaLocation="StatoConsensiRichiesta.xsd"/>
+		</xsd:schema>
+		<xsd:schema elementFormDefault="qualified">
+			<xsd:import namespace="http://statoconsensiricevuta.xsd.fse.ini.finanze.it" schemaLocation="StatoConsensiRicevuta.xsd"/>
+		</xsd:schema>
+	</wsdl:types>
+	<wsdl:message name="ricevuta">
+		<wsdl:part name="StatoConsensiRicevuta" element="ricevutans:StatoConsensiRicevuta"/>
+	</wsdl:message>
+	<wsdl:message name="richiesta">
+		<wsdl:part name="StatoConsensiRichiesta" element="richiestans:StatoConsensiRichiesta"/>
+	</wsdl:message>
+	<wsdl:portType name="statoConsensiPT">
+		<wsdl:operation name="statoConsensi">
+			<wsdl:input message="tns:richiesta"/>
+			<wsdl:output message="tns:ricevuta"/>
+		</wsdl:operation>
+	</wsdl:portType>
+	<wsdl:binding name="statoConsensiBinding" type="tns:statoConsensiPT">
+		<soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+		<wsdl:operation name="statoConsensi">
+			<soap:operation soapAction="http://statoconsensi.wsdl.fse.ini.finanze.it/StatoConsensi"/>
+			<wsdl:input>
+				<soap:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal"/>
+			</wsdl:output>
+		</wsdl:operation>
+	</wsdl:binding>
+	<wsdl:service name="fseStatoConsensi">
+		<wsdl:port name="fseStatoConsensi" binding="tns:statoConsensiBinding">
+			<soap:address location="http://localhost:9080/FseInsServicesWeb/services/fseStatoConsensi"/>
+		</wsdl:port>
+	</wsdl:service>
+</wsdl:definitions>

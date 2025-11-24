@@ -1,0 +1,1086 @@
+%PDF-1.4
+%ˆ‰¸ﬂ
+1 0 obj
+<<
+/Type /Catalog
+/Version /1.4
+/Pages 2 0 R
+/Names 3 0 R
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Kids [4 0 R]
+/Count 1
+>>
+endobj
+3 0 obj
+<<
+/EmbeddedFiles 5 0 R
+>>
+endobj
+4 0 obj
+<<
+/Type /Page
+/MediaBox [0.0 0.0 612.0 792.0]
+/Parent 2 0 R
+/Contents 6 0 R
+/Resources 7 0 R
+>>
+endobj
+5 0 obj
+<<
+/Names [(cda.xml) 8 0 R]
+>>
+endobj
+6 0 obj
+<<
+/Length 181
+/Filter /FlateDecode
+>>
+stream
+xú-éMÇ@ÑÔ˚+OQ∫(Å∑æÑ†(Ö:tŸ⁄◊Ï√U‹ı‡øoã.œ<Ãíƒ,èKP)‚döÇvB¶òGHãê™áÖUu˚fîæﬁŸpßk\y!q\Áÿ´w∏Ñe[_Fì·‰ë√Õ}ÌÒ<K“,I∞⁄I9=çE∏5∂eOπä°úS∑™f„ÏC”√VMˇ÷(õﬁh(¨÷ú˜ªˇÛÙ;÷”üjC‚a;Ÿ
+endstream
+endobj
+7 0 obj
+<<
+/Font 9 0 R
+>>
+endobj
+8 0 obj
+<<
+/Type /Filespec
+/F (cda.xml)
+/EF 10 0 R
+>>
+endobj
+9 0 obj
+<<
+/F1 11 0 R
+>>
+endobj
+10 0 obj
+<<
+/F 12 0 R
+>>
+endobj
+11 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Times-Roman
+/Encoding /WinAnsiEncoding
+>>
+endobj
+12 0 obj
+<<
+/Length 31650
+/Type /EmbeddedFile
+/Subtype /application#2Fxml
+/Params 13 0 R
+>>
+stream
+<!--HEADER RSA-->
+
+<ClinicalDocument xsi:schemaLocation="urn:hl7-org:v3 CDA.xsd" xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdtc="urn:hl7-org:sdtc">
+	<realmCode code="IT"/>
+	<typeId root="2.16.840.1.113883.1.3" extension="POCD_MT000040UV02"/>
+	<templateId root="2.16.840.1.113883.2.9.10.1.9.1" extension="1.1" assigningAuthorityName="HL7 Italia"/>
+	<id root="2.16.840.1.113883.2.9.2.120.4.4" extension="030702.RSSMRA22A01A399Z.20220509102426.Q123E456" assigningAuthorityName="Regione Lazio"/>
+	<code code="11488-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName=" Nota di consulto">
+		<!--translation code="[CODICE_LOCALE]" codeSystem="[OID_SISTEMA_CODIFICA]" codeSystemName="[DESCRIZIONE_SISTEMA_CODIFICA]" displayName="[DESCRIZIONE_CODICE]"/-->
+	</code>	
+	<title> Referto di Specialistica Ambulatoriale </title>
+	<sdtc:statusCode code="active"/>
+	<effectiveTime value="20220509103000+0100"/>
+	<confidentialityCode code="N" codeSystem="2.16.840.1.113883.5.25" codeSystemName="HL7 Confidentiality" displayName="Normal"/>
+	<languageCode code="it-IT"/>
+	<setId root="2.16.840.1.113883.2.9.2.120.4.4" extension="030702.RSSMRA22A01A399Z.20220420112426.DW322E34" assigningAuthorityName="Regione Lazio"/>
+	<versionNumber value="2"/>
+	<recordTarget>
+		<patientRole>
+			<id root="2.16.840.1.113883.2.9.2.4.3.2" extension="RSSMRA22A01A399Z" assigningAuthorityName="MEF"/>
+			<addr use="H"> 
+				<country>100</country>
+				<state>120</state>
+				<county>RM</county> 
+				<city>Roma</city> 
+				<censusTract>058091</censusTract> 
+				<postalCode>00187</postalCode> 
+				<streetAddressLine>Via Prova 12</streetAddressLine> 
+			</addr> 
+			<telecom use="HP" value="mailto:prova.provax@example.com"/>
+			<telecom use="MC" value="tel:3340000000"/>
+			<patient>
+				<name>
+					<family>Rossi</family>
+					<given>Rosso</given>
+				</name>
+				<administrativeGenderCode code="M" codeSystem="2.16.840.1.113883.5.1" codeSystemName="HL7 AdministrativeGender" displayName="MASCHIO"/> 
+				<birthTime value="19600619"/>
+				<birthplace> 
+					<place>
+						<addr>
+							<country>100</country>
+							<state>120</state>
+							<county>RM</county> 
+							<city>Roma</city> 
+							<censusTract>058091</censusTract>
+						</addr>					
+					</place> 
+				</birthplace> 
+			</patient>
+		</patientRole>	
+	</recordTarget>
+	<author>
+		<time value="20220509093000+0100"/>
+		<assignedAuthor classCode="ASSIGNED"> 
+			<id root="2.16.840.1.113883.2.9.4.3.2" extension="PROVAX00X00X000Y" assigningAuthorityName="MEF"/> 
+			<addr>
+				<country>100</country>
+				<state>120</state>
+				<county>RM</county> 
+				<city>Roma</city> 
+				<censusTract>058091</censusTract> 
+				<postalCode>00184</postalCode> 
+				<streetAddressLine>Via Prova 7</streetAddressLine>
+			</addr>
+			<telecom use="HP" value="mailto:prova.provax@example.com"/> 
+			<telecom use="WP" value="mailto:prova.provax@example.com"/> 
+			<telecom use="MC" value="tel:3340000000"/>
+			<assignedPerson> 
+				<name> 
+					<family>Prove</family> 
+					<given>Prova</given> 
+					<prefix>Dr</prefix>
+				</name> 
+			</assignedPerson>
+		</assignedAuthor> 
+	</author>	
+	<dataEnterer typeCode="ENT">
+		<time value="20220509094000+0100"/>
+		<assignedEntity>
+			<id root="2.16.840.1.113883.2.9.4.3.2" extension="PROVAX00X00X000Y" assigningAuthorityName="MEF"/>
+			<addr>
+				<country>100</country>
+				<state>120</state>
+				<county>RM</county> 
+				<city>Roma</city> 
+				<censusTract>058091</censusTract>
+				<streetAddressLine>via Prova 7</streetAddressLine>
+			</addr>
+			<telecom use="HP" value="mailto:prova.provax@example.com"/> 
+			<telecom use="MC" value="tel:3300000000"/> 
+			<assignedPerson>
+				<name>
+					<family>Test</family> 
+					<given>Prova</given> 
+				</name>
+			</assignedPerson>
+		</assignedEntity>
+	</dataEnterer>	
+	<custodian>
+		<assignedCustodian>
+			<representedCustodianOrganization>
+				<id root="2.16.840.1.113883.2.9.4.1.2" extension="XXX" assigningAuthorityName="Ministero della Salute"/>
+				<name>XXX</name>
+				<telecom use="WP" value="tel:0600000000"/>
+				<addr>
+					<country>100</country>
+					<state>120</state>
+					<county>RM</county> 
+					<city>Roma</city> 
+					<censusTract>058091</censusTract>
+					<streetAddressLine>Via Prova 7</streetAddressLine>
+				</addr>
+			</representedCustodianOrganization>
+		</assignedCustodian>
+	</custodian>	
+	<legalAuthenticator>
+		<time value="20220509095000+0100"/>
+		<signatureCode code="S"/>
+			<assignedEntity>
+				<id root="2.16.840.1.113883.2.9.4.3.2" extension="PROVAX00X00X000Y" assigningAuthorityName="MEF"/>
+				<addr>
+					<country>100</country>
+					<state>120</state>
+					<county>RM</county> 
+					<city>Roma</city> 
+					<censusTract>058091</censusTract>
+					<streetAddressLine>Via Tommaso 14</streetAddressLine>
+				</addr>
+				<telecom use="HP" value="mailto:prova.provax@example.com"/> 
+				<telecom use="MC" value="tel:3300000000"/> 
+				<assignedPerson>
+					<name>
+						<family>Prova</family>
+						<given>Verifica</given>
+						<prefix>Dott.ssa</prefix>
+					</name>
+				</assignedPerson>
+			</assignedEntity>
+	</legalAuthenticator>	
+	<participant typeCode="REF">
+		<time value="20220509093000+0100"/>
+		<associatedEntity classCode="PROV">
+			<id root="2.16.840.1.113883.2.9.4.3.2" extension="PROVAX00X00X000Y" assigningAuthorityName="MEF"/>
+			<code code="3211" codeSystem="2.16.840.1.113883.2.9.6.2.7" codeSystemName="ISCO-08" displayName="Tecnici di imaging medicale e apparecchiature terapeutiche"/>
+			<addr>
+				<country>100</country>
+				<state>120</state>
+				<county>RM</county> 
+				<city>Roma</city> 
+				<censusTract>058091</censusTract> 
+				<postalCode>00164</postalCode> 
+				<streetAddressLine>via Prova 3</streetAddressLine>
+			</addr>
+			<telecom use="HP" value="mailto:prova.provax@example.com"/> 
+			<associatedPerson>
+				<name>
+					<family>Provata</family>
+					<given>Prova</given>
+					<prefix>Dott.</prefix>
+				</name>
+			</associatedPerson>
+		</associatedEntity>
+	</participant>			
+	<inFulfillmentOf> 
+		<order classCode="ACT" moodCode="RQO"> 
+			<id root="2.16.840.1.113883.2.9.4.3.9" extension="[NRE]" assigningAuthorityName="MEF"/> 
+			<priorityCode code="R" codeSystem="2.16.840.1.113883.5.7" codeSystemName="HL7 ActPriority" displayName="Normale"/>
+		</order> 
+	</inFulfillmentOf> 	
+	<documentationOf> 
+		<serviceEvent> 
+			<code code="PROG" codeSystem="2.16.840.1.113883.2.9.5.1.4" codeSystemName="ActCode" displayName="Accesso Programmato"/>
+			<effectiveTime value="20220509073000+0100"/> 
+		</serviceEvent> 
+	</documentationOf> 	
+	<relatedDocument typeCode="RPLC"> 
+		<parentDocument> 
+			<id root="2.16.840.1.113883.2.9.2.120.4.4" extension="030702.RSSMRA22A01A399Z.20210420112426.F123E45G" assigningAuthorityName="HL7 Italia"/> 
+			<setId root="2.16.840.1.113883.2.9.2.120.4.4" extension="030702.RSSMRA22A01A399Z.20220420112426.DW322E34" assigningAuthorityName="Regione Lazio"/>
+			<versionNumber value="1"/>
+		</parentDocument> 
+	</relatedDocument>
+	<componentOf>
+		<encompassingEncounter>
+			<id root="2.16.840.1.113883.2.9.2.120110.4.6" extension="2011008159" assigningAuthorityName="MEF"/>
+			<effectiveTime>
+				<low value="20220509072426+0100"/>
+				<high value="20220509123026+0100"/>
+			</effectiveTime>
+			<location>
+				<healthCareFacility>
+					<id root="2.16.840.1.113883.2.9.4.1.6" extension="120103.XX.49" assigningAuthorityName="Ministero della Salute"/>
+					<location>
+						<name>Terapia Intensiva</name>
+						<addr>
+							<country>100</country>
+							<state>120</state>
+							<county>RM</county> 
+							<city>Roma</city> 
+							<censusTract>058091</censusTract> 
+							<postalCode>00164</postalCode> 
+							<streetAddressLine>via Prova 3</streetAddressLine>					
+						</addr>
+					</location>
+					<serviceProviderOrganization>
+						<id root="2.16.840.1.113883.2.9.4.1.2" extension="120103.XX" assigningAuthorityName="Ministero della Salute"/>
+						<asOrganizationPartOf>
+							<id root="2.16.840.1.113883.2.9.4.1.1" extension="120103" assigningAuthorityName="Ministero della Salute"/>
+						</asOrganizationPartOf>
+					</serviceProviderOrganization>
+				</healthCareFacility>
+			</location>		
+		</encompassingEncounter>
+	</componentOf>
+
+		
+		
+		
+	<!--BODY RSA-->
+
+	<component>
+		<structuredBody moodCode="EVN" classCode="DOCBODY">
+			<component typeCode="COMP">
+				<section ID="QUESITO_DIAGNOSTICO">
+					<code code="29299-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Motivo della visita"/>
+					<title> Quesito diagnostico </title>
+					<text> 
+						<paragraph> 
+							Ipoglicemia
+						</paragraph> 
+					</text> 
+					<entry> 
+						<observation classCode="OBS" moodCode="EVN"> 
+							<code code="29298-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Motivo della visita"/>
+							<value xsi:type="CD" code="2512" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9-CM" displayName="IPOGLICEMIA NON SPECIFICATA">
+								<!--translation code="XXX" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="[DESC_DIAGNOSI]"/-->
+							</value>
+						</observation> 
+					</entry>
+				</section>
+			</component>
+			<component typeCode="COMP">
+				<section ID="STORIA_CLINICA">
+					<code code="11329-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Storia Generale"/>
+					<title> Storia Clinica </title>
+					<text>
+						<table>
+							<thead>
+								<tr>
+									<th>Anamnesi Patologica remota</th>
+									<th>Anamnesi Patologica prossima</th>
+									<th>Anamnesi Patologica Fisiologica</th>
+									<th>Anamnesi Familiare</th>
+									<th>Allergie</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>[DESC_ANAMNESI_PR]</td>
+									<td>[DESC_ANAMNESI_PP]</td>
+									<td>[DESC_ANAMNESI_FISIO]</td>
+									<td>[DESC_ANAMNESI_FAM]</td>
+									<td>[ALLERGIE]</td>
+								</tr>
+							</tbody>
+						</table>
+					</text>
+					<!--Anamnesi Patologica Prossima-->
+					<entry> 
+						<observation moodCode="EVN" classCode="OBS">
+							<code code="75326-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Problem"/>  
+							<statusCode code="completed"/>
+							<effectiveTime>
+								<low value="20220330112426+0100"/>
+								<high value="20220404110000+0200"/>
+							</effectiveTime>
+							<value xsi:type="CD" code="60975-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Resistenza Vascolare"/>
+							<entryRelationship typeCode="REFR" inversionInd="false"> 
+							    <observation classCode="OBS" moodCode="EVN">
+									<code code="89261-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Decorso Clinico"/>
+									<text><reference value="#[REF_CRON]"/></text>
+									<statusCode code="completed"/>
+									<value xsi:type="CE" code="LA18821-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Acute"/>
+							    </observation>
+							</entryRelationship>
+							<entryRelationship typeCode="REFR" inversionInd="false">
+								<observation classCode="OBS" moodCode="EVN">
+									<code code="33999-4" displayName="Stato" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>  
+									<text>
+										<reference value="#[REF_STATO]"/>
+									</text>
+									<statusCode code="completed"/>
+									<value xsi:type="CE" code="LA18632-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Inactive"/>
+								</observation>
+						    </entryRelationship>	
+						</observation>
+					</entry>
+					<!--Anamnesi Familiare-->
+					<entry>
+						<organizer moodCode="EVN" classCode="CLUSTER">  
+							<code code="10157-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Storia di malattie di membri familiari"/>
+							<statusCode code="completed"/>
+							<effectiveTime value="20220409121122+0200"/>
+							<subject typeCode="SBJ">
+								<relatedSubject classCode="PRS">
+									<code code="MTH" codeSystem="2.16.840.1.113883.5.111" codeSystemName="RoleCode" displayName="Mother"/>
+									<subject>
+										<administrativeGenderCode code="F" codeSystem="2.16.840.1.113883.5.1" codeSystemName="HL7 AdministrativeGender" displayName="Femmina"/>
+									</subject>
+								</relatedSubject>
+							</subject>
+							<component>  
+								<observation moodCode="EVN" classCode="OBS">
+									<code code="52797-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Diagnosi codice ICD"/>
+									<text>
+										<reference value="#[REF_OBS]"/>
+									</text>
+									<statusCode code="completed"/>
+									<effectiveTime value="20220406121122+0200"/>
+									<value xsi:type="CD" code="5756" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9-CM" displayName="COLESTEROLOSI DELLA COLECISTI"/>
+									<entryRelationship typeCode="SUBJ">
+										<observation classCode="OBS" moodCode="EVN">
+											<code code="35267-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Et√† diagnosi patologia"/>
+											<value xsi:type="PQ" value="35" unit="a"/>
+										</observation>
+									</entryRelationship>	
+									<entryRelationship typeCode= "SUBJ">
+										<observation classCode="OBS" moodCode="EVN">
+											<code code="39016-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Et√† decesso"/>
+											<value xsi:type="PQ" value="60" unit="a"/>
+										</observation>
+									</entryRelationship>
+								</observation>
+							</component>
+						</organizer>
+					</entry>	
+					<component typeCode="COMP">
+						<section ID="ALLERGIE">
+							<code code="48765-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Allergie e/o reazioni avverse"/>
+							<title> Allergie </title>
+							<text> 
+								<paragraph> 
+									Allergico a Cefalosporine; Allergia a contatto per lattice; 
+									Allergia a contatto ed inalazione per polvere comune.
+								</paragraph> 
+							</text> 
+							<entry> 
+								<act classCode="ACT" moodCode="EVN">
+									<!--templateId root="2.16.840.1.113883.2.9.10.1.6.33.9999"/-->
+									<code nullFlavor="NA"/> 
+									<statusCode code="active"/>
+									<effectiveTime>
+										<low value="20220420101010+0100"/>
+										<!--high value="20220425202020+0100"/-->
+									</effectiveTime>
+									<entryRelationship typeCode="SUBJ">
+										<observation classCode="OBS" moodCode="EVN"> 
+											<code code="52473-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Allergia o causa della reazione"/> 
+											<text>
+												<reference value="#[REF_NOTA1]"/>
+											</text>
+											<statusCode code="completed"/>
+											<effectiveTime>
+												<low value="20220415101010+0100"/>
+												<high value="20220419101010+0100"/>
+											</effectiveTime>
+											<value xsi:type="CD" code="ALG" codeSystem="2.16.840.1.113883.5.4" codeSystemName="ObservationIntoleranceType" displayName="Allergy"/>
+											<participant typeCode="CSM">
+												<participantRole classCode="MANU">
+													<playingEntity classCode="MMAT">
+														<code code="111088007" codeSystem="2.16.840.1.113883.2.9.77.22.11.2" codeSystemName="Allergeni (No Farmaci)" displayName="lattice">
+															<originalText>
+																<reference value="#[REF_AGENT]"/>
+															</originalText>
+														</code>
+													</playingEntity>
+												</participantRole>
+											</participant>
+											<entryRelationship typeCode="MFST">
+												<observation classCode="OBS" moodCode="EVN"> 
+													<code code="75321-0" displayName= "Obiettivit√† Clinica" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+													<text>
+														<reference value='#[REF_TXT_OBS]'/>
+													</text>
+													<statusCode code="completed"/>
+													<effectiveTime>
+														<low value="20220419101010+0100"/>
+														<high value="20220423101010+0100"/>
+													</effectiveTime>
+													<value xsi:type="CD" code="698.8" codeSystem="2.16.840.1.113883.2.9.77.22.11.4" displayName="ALTRE AFFEZIONI PRURIGINOSE SPECIFICATE" codeSystemName="AllergyReactions_PSSIT"> 
+														<originalText> 
+															<reference value="#[REF_REAZ]"/> 
+														</originalText>
+													</value>
+												</observation>
+											</entryRelationship>										
+											<entryRelationship typeCode="SUBJ" >
+												<observation classCode="OBS" moodCode="EVN"> 
+													<code code="SEV" displayName="Criticality" codeSystem="2.16.840.1.113883.5.4" codeSystemName="ActCode"/>
+													<text>
+														<reference value="#[REF_TXT_CRIT]"/>
+													</text>
+													<statusCode code="completed"/>
+													<value xsi:type="CD" code="M" codeSystem="2.16.840.1.113883.5.1063" codeSystemName="CriticalityObservation" displayName="Moderate"/>
+												</observation>
+											</entryRelationship>
+											<entryRelationship typeCode="REFR" >
+												<observation classCode="OBS" moodCode="EVN"> 
+													<code code="33999-4" displayName="Stato" codeSystem="2.16.840.1.113883.6.1"	codeSystemName="LOINC"/>
+													<text>
+														<reference value="#[REF_STATO]"/>
+													</text>
+													<statusCode code="completed"/>
+													<value xsi:type="CD" code="LA16666-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Active"/>
+												</observation>
+											</entryRelationship>
+											<entryRelationship typeCode="SUBJ" >
+												<act classCode="ACT" moodCode="EVN">
+													<code code="48767-8" displayName="'Annotation Comment" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+													<text>
+														<reference value="#[REF_COMMENTI]"/>
+													</text>
+													<statusCode code="completed"/>
+												</act>
+											</entryRelationship>
+										</observation>
+									</entryRelationship>
+								</act>
+							</entry>			
+						</section>
+					</component>					
+					<component typeCode="COMP">
+						<section ID="TERAPIA_FARMACOLOGICA_IN_ATTO">
+							<code code="10160-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Uso di farmaci"/>
+							<title> Terapia farmacologica in atto </title>
+							<text> 
+								<list> 
+									<item> 
+										<content ID="TF-1">023993013 ‚Äì LASIX*25MG 30 CPR</content> 
+									</item> 
+								</list> 
+							</text>
+							<entry>
+								<substanceAdministration classCode="SBADM" moodCode="EVN">
+									<consumable>
+										<manufacturedProduct>
+											<manufacturedMaterial>
+												<code code="023993013" codeSystem="2.16.840.1.113883.2.9.6.1.5" codeSystemName="AIC" displayName="LASIX*25MG 30 CPR">
+													<translation code="C03CA01" codeSystem="2.16.840.1.113883.6.73" codeSystemName="WHO ATC"  displayName="FUROSEMIDE"/>
+												</code>
+											</manufacturedMaterial>
+										</manufacturedProduct>
+									</consumable>
+								</substanceAdministration>
+							</entry>
+						</section>
+					</component>			
+				</section>
+			</component>
+			<component typeCode="COMP">
+				<section ID="PRECEDENTI_ESAMI_ESEGUITI">
+					<code code="30954-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Test diagnostici o dati di laboratorio rilevanti"/>
+					<title>Precedenti Esami Eseguiti</title>
+					<text> 
+						<table> 
+							<thead> 
+								<tr> 
+									<th>Precedente Esame Eseguito</th> 
+									<th>Data Esame</th> 
+									<th>Esito</th> 
+								</tr> 
+							</thead> 
+							<tbody> 
+								<tr> 
+									<td>[DESC_PRECEDENTE_ESAME_ESEGUITO]</td> 
+									<td>[DT_ESECUZIONE_ESAME]</td> 
+									<td>[ESITO_ESAME]</td> 
+								</tr> 
+							</tbody> 
+						</table> 
+					</text>
+					<entry> 
+						<observation classCode="OBS" moodCode="EVN"> 
+							<code code="9054" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD-9-CM" displayName="ESAME MICROSCOPICO DI CAMPIONE DI SANGUE - PARASSITOLOGIA"/>
+							<effectiveTime>
+								<low value="20220101090000+0200"/> 
+								<high value="20220101103000+0200"/>
+							</effectiveTime>	
+							<value xsi:type="ST">[ESITO_ESAME]</value> 
+						</observation> 
+					</entry> 
+				</section>
+			</component>
+			<component typeCode="COMP">
+				<section ID="ESAME_OBIETTIVO">
+					<code code="29545-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Osservazioni fisiche"/>
+					<title> Esame Obiettivo </title>
+					<text> 
+						<paragraph> 
+							Azione cardiaca ritmica normo frequente. 
+							Rumore respiratorio fisiologico su tutto l‚Äôambito. Crepiti fissi 
+							alla base destra.
+							Addome trattabile alla palpazione superficiale e profonda.
+							Modesti edemi declivi
+						</paragraph> 
+					</text>
+				</section>
+			</component>
+			<component typeCode="COMP">
+				<section ID="PRESTAZIONI">
+					<code code="62387-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"  displayName="Interventi"/>
+					<title> Prestazioni </title>
+					<text>
+						<paragraph>
+							<caption>Prestazioni Eseguite</caption>
+						</paragraph>
+						<list>
+							<item ID="Prestazione-1">
+								<table>
+									<thead>
+										<tr>
+											<th>Prestazione 1</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<th>Codice Prestazione</th>
+											<td>012311B</td>
+										</tr>
+										<tr>
+											<th>Descrizione Prestazione eseguita</th>
+											<td>ESTRAZIONE DI RADICE RESIDUA (chirurgia ambulatoriale -BIC)</td>
+										</tr>
+										<tr>
+											<th>Data Prestazione eseguita</th>
+											<td>20220509073749+0100</td>
+										</tr>
+									</tbody>
+								</table>
+								<paragraph>
+									<caption>Procedure Operative Eseguite</caption>
+								</paragraph>
+								<list>
+									<item ID="Procedure-1">
+										<table border = "1">
+											<thead>
+												<tr>
+													<th colspan="2">Procedura 1</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<th>Codice Prestazione Eseguita</th>
+													<td>012311B</td>
+												</tr>
+												<tr>
+													<th>Codice Procedura Operativa</th>
+													<td></td>
+												</tr>
+												<tr>
+													<th>Descrizione Procedura Operativa</th>
+													<td></td>
+												</tr>
+												<tr>
+													<th>Quantit√†</th>
+													<td></td>
+												</tr>
+												<tr>
+													<th>Modalit√† esecuzione procedura operativa</th>
+													<td></td>
+												</tr>
+												<tr>
+													<th>Strumentazione utilizzata</th>
+													<td></td>
+												</tr>
+												<tr>
+													<th>Parametri descrittivi della procedura</th>
+													<td></td>
+												</tr>
+												<tr>
+													<th>Note</th>
+													<td></td>
+												</tr>
+											</tbody>
+										</table>
+									</item>
+								</list>
+							</item>
+						</list>
+					</text>
+					<entry>
+						<act classCode="ACT" moodCode="EVN"> 
+							<code code="012311B" codeSystem="2.16.840.1.113883.2.9.2.120.6.11" codeSystemName="DIZ_PREST_SAN_Regione Lazio" displayName="ESTRAZIONE DI RADICE RESIDUA (chirurgia ambulatoriale- BIC">
+								<originalText>
+									<reference value="Prestazione ‚Äì 1"/>
+								</originalText>
+							</code>
+							<effectiveTime value="20220509073749+0100"/>
+							<entryRelationship typeCode="COMP">
+								<procedure classCode="PROC" moodCode="EVN">
+									<code code="012311B" codeSystem="2.16.840.1.113883.2.9.2.120.6.11" codeSystemName="DIZ_PREST_SAN_Regione Lazio" displayName="ESTRAZIONE DI RADICE RESIDUA(in chirurgia ambulatoriale - BIC)">
+										<originalText>
+											<reference value="#Procedura - 1"/>
+										</originalText>
+									</code>
+									<effectiveTime value="20220509073749+0100"/>
+								</procedure>
+							</entryRelationship>
+						</act>	
+					</entry>
+				</section>
+			</component>
+			<component typeCode="COMP">
+				<section ID="CONFRONTO_PRECEDENTI_ESAMI_ESEGUITI">
+					<code code="93126-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Confronto con Precedenti Esami Eseguiti"/>
+					<title> Confronto con Precedenti Esami Eseguiti </title>
+					<text>
+						<paragraph>
+							[Descrizione del confronto con precedenti esami eseguiti]
+						</paragraph>
+					</text>
+				</section>
+			</component>
+			<component typeCode="COMP">
+				<section ID="REFERTO">
+					<code code="47045-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Referto"/>
+					<title>Referto</title>
+					<text>
+						<paragraph>
+							[Questo paragrafo contiene una descrizione testuale del 
+							referto]
+						</paragraph>
+					</text>
+				</section>
+			</component>
+			<component typeCode="COMP">
+				<section ID="DIAGNOSI">
+					<code code="29548-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Diagnosi"/>
+					<title> Diagnosi </title>
+					<text> 
+						<list> 
+							<item> 
+								<content ID="DIAG1">[Diagnosi]</content> 
+							</item> 
+						</list> 
+					</text>
+					<entry> 
+						<observation classCode="OBS" moodCode="EVN"> 
+							<code code="29308-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Diagnosi"/>
+							<value xsi:type="CD" code="79021" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" displayName="ALTERAZIONI DEL TEST RAPIDO DELLA GLICEMIA"/>
+						</observation> 
+					</entry>
+				</section>
+			</component>
+			<component typeCode="COMP">
+				<section ID="CONCLUSIONI">
+					<code code="55110-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Conclusioni"/>
+					<title> Conclusioni </title>
+					<text>
+						<paragraph>
+							[Questo paragrafo contiene una descrizione testuale delle 
+							conclusioni]
+						</paragraph>
+					</text>
+				</section>
+			</component>
+			<component typeCode="COMP">
+				<section ID="SUGGERIMENTI_MEDICO_PRESCRITTORE">
+					<code code="62385-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Raccomandazioni"/>
+					<title> Suggerimenti per il Medico Prescrittore </title>
+					<text>
+						<paragraph>
+							[Questo paragrafo contiene una descrizione testuale dei 
+							suggerimenti per il medico prescrittore]
+						</paragraph>
+					</text>
+				</section>
+			</component>
+			<component typeCode="COMP">
+				<section ID="ACCERTAMENTI_CONTROLLI_CONSIGLIATI">
+					<code code="80615-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Follow-up Consigliato"/>
+					<title> Accertamenti e Controlli Consigliati </title>
+					<text> 
+						<list> 
+							<item> 
+								<content ID="AC-1">[Questo paragrafo contiene una 
+								3110 descrizione codificata degli Accertamenti e Controlli 
+								Consigliati]</content> 
+							</item> 
+						</list> 
+					</text> 
+					<entry>
+						<act classCode="ACT" moodCode="PRP"> 
+							<code code="2340-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Glucose [Mass/volume] in Blood by Automated test strip"/> 
+						</act> 
+					</entry>
+				</section>
+			</component>
+			<component typeCode="COMP">
+				<section ID="TERAPIA_FARMACOLOGICA_CONSIGLIATA">
+					<code code="93341-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Farmaci Consigliati"/>
+					<title> Terapia farmacologica Consigliata </title>
+					<text>
+						<paragraph>
+							Lasix 25 mg cpr ore 8
+						</paragraph>
+					</text>
+					<entry>
+						<substanceAdministration classCode="SBADM" moodCode="PRP">
+							<text>
+								<reference value="#[REF_MED]"/>
+							</text>
+							<!--Periodo di inizio e fine della terapia-->
+							<effectiveTime xsi:type="IVL_TS">
+								<low value="20220510121100+0100"/>
+								<high value="20220610121100+0100"/>
+							</effectiveTime>
+							<!--Posologia -->
+							<effectiveTime operator="A" xsi:type="PIVL_TS" institutionSpecified="true">
+								<period value="12" unit="h"/>
+							</effectiveTime>
+							<!--Via di somministrazione-->
+							<routeCode code="PO" codeSystem="2.16.840.1.113883.5.112" codeSystemName="HL7 RouteOfAdministration" displayName="Swallow,oral"/>
+							<!--Sito di somministrazione-->
+							<!--approachSiteCode code="LA" codeSystem="2.16.840.1.113883.5.1052" codeSystemName="ActSite" displayName="left arm"/-->
+							<!--Dose (OPZIONALE)-->
+							<doseQuantity>
+								<low value="20" unit="mg"/>
+								<high value="30" unit="mg"/> 
+							</doseQuantity>
+							<!--Frequenza di erogazione-->
+							<rateQuantity>
+								<low value="2" unit="mg/h"/>
+								<high value="3" unit="mg/h"/> 
+							</rateQuantity>
+							<!--Forma Farmaceutica-->
+							<administrationUnitCode code="46992007" codeSystem="2.16.840.1.113883.4.642.3.374" codeSystemName="SNOMED" displayName="Pill"/>
+							<consumable>
+								<manufacturedProduct classCode="MANU">
+							<!--Dettagli del Farmaco-->
+									<manufacturedMaterial>
+										<code code="023993013" codeSystem="2.16.840.1.113883.2.9.6.1.5" codeSystemName="AIC" displayName="LASIX*25MG 30 CPR">
+											<translation code="C02LA01" codeSystem="2.16.840.1.113883.6.73" codeSystemName="ATC" displayName="RESERPINA E DIURETICI"/>
+										</code>
+									</manufacturedMaterial>						
+								</manufacturedProduct>
+							</consumable>
+							<participant typeCode="REF">
+								<time value="20220509120000+0100"/>
+								<participantRole>
+									<id root="2.16.840.1.113883.2.9.4.3.2" extension="PROVAX00X00X000Y" assigningAuthorityName="MEF"/>
+									<playingEntity>
+										<name>
+											<family>Prova</family>
+											<given>Prova</given>
+										</name>
+									</playingEntity>
+								</participantRole>
+							</participant>
+							<entryRelationship typeCode="COMP">
+							<!--Grammatura-->
+								<observation classCode="OBS" moodCode="EVN">
+									<code 	code="XX" codeSystem="2.16.840.1.113883.9.999" codeSystemName="XXXX" displayName="Grammatura"/>
+									<value xsi:type="REAL" value="2.5"/>
+								</observation>
+							</entryRelationship>
+							<entryRelationship typeCode="COMP">
+							<!--Quantit√† nella confezione-->
+								<observation classCode="OBS" moodCode="EVN">
+									<code code="XX" codeSystem="2.16.840.1.113883.9.999" codeSystemName="XXXX" displayName="Quantit√† nella Confezione"/>
+									<value xsi:type="REAL" value="5"/>
+								</observation>
+							</entryRelationship>
+							<entryRelationship typeCode="COMP">
+							<!--Numero di confezioni-->
+								<supply classCode="SPLY" moodCode="RQO">
+									<quantity value="5"/>
+								</supply>
+							</entryRelationship>
+						</substanceAdministration>
+					</entry>
+				</section>
+			</component>					
+		</structuredBody>
+	</component>	
+</ClinicalDocument>
+endstream
+endobj
+13 0 obj
+<<
+/Size 31650
+>>
+endobj
+xref
+0 14
+0000000000 65535 f
+0000000015 00000 n
+0000000091 00000 n
+0000000148 00000 n
+0000000190 00000 n
+0000000302 00000 n
+0000000348 00000 n
+0000000603 00000 n
+0000000636 00000 n
+0000000697 00000 n
+0000000729 00000 n
+0000000761 00000 n
+0000000861 00000 n
+0000032630 00000 n
+trailer
+<<
+/Root 1 0 R
+/ID [<8592CE4B473DD4BC6C811BF7074AF4E7> <8592CE4B473DD4BC6C811BF7074AF4E7>]
+/Size 14
+>>
+startxref
+32664
+%%EOF
+
+1 0 obj
+<<
+/Type /Catalog
+/Version /1.4
+/Pages 2 0 R
+/Names 3 0 R
+/AcroForm <<
+/Fields [14 0 R]
+/SigFlags 3
+/DA (/Helv 0 Tf 0 g )
+/DR 15 0 R
+>>
+>>
+endobj
+14 0 obj
+<<
+/FT /Sig
+/Type /Annot
+/Subtype /Widget
+/F 132
+/T (Signature1)
+/V 16 0 R
+/Rect [0.0 0.0 0.0 0.0]
+/P 4 0 R
+/AP 17 0 R
+>>
+endobj
+15 0 obj
+<<
+/Font 18 0 R
+>>
+endobj
+16 0 obj
+<<
+/Type /Sig
+/Filter /Adobe.PPKLite
+/SubFilter /ETSI.CAdES.detached
+/Name (Marco Casaburi)
+/M (D:20221124162929+01'00')
+/Contents <308006092a864886f70d010702a0803080020101310d300b0609608648016503040201308006092a864886f70d0107010000a082081930820815308205fda00302010202030238e3300d06092a864886f70d01010b05003081a8310b300906035504061302495431183016060355040a0c0f496e666f4365727420532e702e412e31293027060355040b0c205175616c696669656420547275737420536572766963652050726f7669646572311a301806035504610c1156415449542d30373934353231313030363138303606035504030c2f496e666f43657274205175616c696669656420456c656374726f6e6963205369676e6174757265204341203320434c301e170d3232303932303132343833305a170d3235303932303030303030305a308182310b3009060355040613024954311f301d0603550405131654494e49542d4353424d52433834453234433336315a31163014060355042e130d323032323131313131343530303117301506035504030c0e4d6172636f2043617361627572693111300f06035504040c084341534142555249310e300c060355042a0c054d4152434f30820122300d06092a864886f70d01010105000382010f003082010a0282010100a2ad450482b10558a371b94335fccacc2e477886822769c1739e393cfc3ad06456c0e06fd001016ca715b7c6dd3503542eb09cc60734be783ee61a5a4af4ed4587c7ba48dc141639d45b3cfcca66489b18d5947775c31f4db3e75555f125c3673a6f34e1054edc4ccd5046933af54aa1c4d2ee69d39ac9967c8e7661433248f303f415cf0c6ea64ab48ef98a8e4c651c29f8920b4f784c7a5da6d09529eb4ae7b3933bd6cea775490a0fa2206b91c551f25e3767e548ca4bb236d3faeadea116d0f38d8f19bf400f61d20c2131c7655ff7c194056ca0769acdbb7884f88a86c30b62d063cc215f865099da2f6efeece12734c874a53adb1a54df2dda5b59d1af0203010001a382036a3082036630090603551d13040230003081de0603551d200481d63081d33009060704008bec400102304f06062b4c2401013d3045304306082b060105050702011637687474703a2f2f7777772e6669726d612e696e666f636572742e69742f646f63756d656e74617a696f6e652f6d616e75616c692e706870307506042b4c1006306d306b06082b06010505070202305f0c5d51756573746f20636572746966696361746f207269737065747461206c6520726163636f6d616e64617a696f6e692070726576697374652064616c6c612044657465726d696e617a696f6e652041676964204e2e203132312f3230313930818406082b06010505070103047830763008060604008e4601013008060604008e460104300b060604008e4601030201143013060604008e4601063009060704008e46010601303e060604008e46010530343032162c68747470733a2f2f7777772e6669726d612e696e666f636572742e69742f7064662f504b492d44532e7064661302656e308201040603551d1f0481fc3081f93081f6a081f3a081f08629687474703a2f2f63726c636c2e696e666f636572742e69742f6361332f71632f43524c30332e63726c8681c26c6461703a2f2f6c646170636c2e696e666f636572742e69742f636e253344496e666f436572742532305175616c6966696564253230456c656374726f6e69632532305369676e6174757265253230434125323033253230434c25323043524c30332c6f752533445175616c696669656425323054727573742532305365727669636525323050726f76696465722c6f253344494e464f434552542532305350412c6325334449543f63657274696669636174655265766f636174696f6e4c697374306f06082b0601050507010104633061302a06082b06010505073001861e687474703a2f2f6f637370636c2e6361332e696e666f636572742e69742f303306082b060105050730028627687474703a2f2f63657274636c2e696e666f636572742e69742f6361332f71632f43412e637274300e0603551d0f0101ff04040302064030280603551d090421301f301d06082b060105050709013111180f31393834303532343030303030305a301f0603551d230418301680145433c01d999890fdfb099467f81dcc0952a10fa6301d0603551d0e04160414b63cc38acccb94de18032d59b57891a8f509ffd0300d06092a864886f70d01010b050003820201002f8b600ded122554340db3df5c19240b989d13ceb43f06a5ce33ed18c303e7a21a0d0d2cf1296867f98bfeed6ba1d70ca368701f10c87a6ac8db967dfbb005ed83592e122ea7c524baba05e6822d5432d244830132ff212823f7a912acd99972fe843a63ceb8bd2f8f4ed6a96fe20c5322e12102c0e3de42d5557a9e3aa554bcbcba1b55ffcdaab7810508072d912e585566b514a123961d823bcf4258230f8dff25852e32c77d8cc00acb81de7dce0f5a14c438b8bfabedd56b023b6c8b0e528ea110f49aaf3fc8e0c08d0758fdc7a9a6548d696a40617b2393b9f6f3eac4e7fa5f978a55e64ce5e0e0e914a9b4e0c2fccbe7bbf1b8c950097244b2571462203424e17b1523bc5c909c83733af699224aaa6c1fd70b9bd282a899d93ab4d8702e5ce6d58b0c481cfe57f55b2f43cb89fa8e9424ef4b9af7b2341165b2099a3fd775f377c7fc03411eaf20cdb64953397eeaff82ed9a5915eb7d4022045939de2c20d0ad061e30ed92babff8699e7522941e40b1670e64237494f387c4145e96a3a1f8b0cec541b493e98c83d94fa472d15657671e984a46648124affd11ffe5063da7cee229413a2dc75447e46468c411110e6a21bbb19b6f0da221d3a239805c6cd43e4b00d85f49da44519d6265641a9ba50762bb234c39599fcb3a8f9dfc68e71cb7d87149efc89613437f55f100021593c674272425c279fddad93243b931820dd630820dd20201013081b03081a8310b300906035504061302495431183016060355040a0c0f496e666f4365727420532e702e412e31293027060355040b0c205175616c696669656420547275737420536572766963652050726f7669646572311a301806035504610c1156415449542d30373934353231313030363138303606035504030c2f496e666f43657274205175616c696669656420456c656374726f6e6963205369676e6174757265204341203320434c02030238e3300d06096086480165030402010500a0820142301806092a864886f70d010903310b06092a864886f70d010701302f06092a864886f70d010904312204208dbece19980167761ea6d20a4a7f55cb91ab0e67067f00730f643a4c9ba3a4093081f4060b2a864886f70d010910022f3181e43081e13081de3081db042024d097efdda7a1fd0dba4e73f0e757cd8837de89d678f5729aa91390fc536f803081b63081aea481ab3081a8310b300906035504061302495431183016060355040a0c0f496e666f4365727420532e702e412e31293027060355040b0c205175616c696669656420547275737420536572766963652050726f7669646572311a301806035504610c1156415449542d30373934353231313030363138303606035504030c2f496e666f43657274205175616c696669656420456c656374726f6e6963205369676e6174757265204341203320434c02030238e3300d06092a864886f70d01010105000482010096dcb7bd97ff6a601bd7ed085ce055dd8385c87025f025a51f3daadfc6f6651ca0e3a84663645d8b2358fb37b237733e97319d09171f588019eef23492f1fcbf03d6cc1a2bfec638c8bb174ea5d281c7330b5a6b223d206093201cb7c9eaea5bef2eac21bb1ee2c4e59eae45bb28da491d1ac79f2f458e437dfe28206d023b1036c827c97b47764bb1af8808401c38b505bd893efab5c9f05cd328302a635abc8edfbb85c58a804650dc7f2ec0065dfb6d8a05d8433776cf94d6de7597b98b46683b343bf46a97e8475b0c41854182b2074ca9db457d1a484a61de76a0184fa9e2cafdda716ad39d9ea814b4123e8165f6b7670d4eb3a305b13dbc5bafb1b1e6a1820ab030820aac060b2a864886f70d010910020e31820a9b30820a9706092a864886f70d010702a0820a8830820a84020103310f300d060960864801650304020105003081e3060b2a864886f70d0109100104a081d30481d03081cd02010106062b4c240101283031300d060960864801650304020105000420a92003b385d9e9d6874779862a06822a9985ad510e03c743f53043fcda6d660402034edd7b180f32303232313132343135323932395a3003020101a055a4533051310b300906035504061302495431183016060355040a0c0f496e666f4365727420532e702e412e310c300a060355040b0c03545341311a301806035504030c11494345445453504431434c323032323037a11b301906082b06010505070103040d300b30090607040081975e0101a08206b0308206ac30820494a00302010202010e300d06092a864886f70d01010b0500308181310b300906035504061302495431183016060355040a0c0f496e666f4365727420532e702e412e310c300a060355040b0c03545341311a301806035504610c1156415449542d3037393435323131303036312e302c06035504030c25496e666f436572742054696d65205374616d70696e6720417574686f72697479203320434c301e170d3232303732313130303331395a170d3235303732313130303331395a3051310b300906035504061302495431183016060355040a0c0f496e666f4365727420532e702e412e310c300a060355040b0c03545341311a301806035504030c11494345445453504431434c32303232303730820122300d06092a864886f70d01010105000382010f003082010a0282010100d6d9c2c8c645c455b5ea5edecfb8d8449efcec4d8363ed015f60dcae6348314fc4c843b2e4d0282c1e53fa0bddb4793b8d39207c68f2823b111966739643745c8cde5b98f54444590d222c401fc4dfecffe5ab3b47c16a00b02d4c0969e7e89a28b24b05f61b3e0469d1e0589940625104e5347df3539413762a98ac0acd949f11f3c56d2250db64dc13fda841c42789894215104d89ab6bb4a7b13ef810ffde8125ed2eb6897513e9cc2fd5199665f7ac51059a9f5e184db17ae8ec23da9561894f89223ba7470562a36c0201af7c6aa69be96f81057d4d30d0706a29c202967860b69cd9c7e1089379f73c4d357e026db42ec79a26a88cd10b0f3131e619230203010001a382025c3082025830160603551d250101ff040c300a06082b06010505070308307106082b06010505070103046530633008060604008e4601013008060604008e460104300b060604008e4601030201143040060604008e46010530363034162e68747470733a2f2f7777772e6669726d612e696e666f636572742e69742f7064662f504b492d445453412e7064661302656e303e06082b0601050507010104323030302e06082b060105050730018622687474703a2f2f6f637370636c2e7473612e6361332e696e666f636572742e69742f3081cc0603551d1f0481c43081c13081bea081bba081b88628687474703a2f2f63726c636c2e696e666f636572742e69742f6361332f7473612f43524c2e63726c86818b6c6461703a2f2f6c646170636c2e696e666f636572742e69742f636e253344496e666f4365727425323054696d652532305374616d70696e67253230417574686f7269747925323033253230434c2c6f752533445453412c6f253344494e464f434552542532305350412c6325334449543f63657274696669636174655265766f636174696f6e4c697374306c0603551d20046530633008060604008f670101304f06062b4c240101283045304306082b060105050702011637687474703a2f2f7777772e6669726d612e696e666f636572742e69742f646f63756d656e74617a696f6e652f6d616e75616c692e706870300606042b4c1006300e0603551d0f0101ff040403020780301f0603551d2304183016801441e57457b3008db11b4be25fb0eb0114a12adb99301d0603551d0e0416041409ec17fd93306ff284cdca2102ce504b35259c35300d06092a864886f70d01010b05000382020100c83fa3662e8247f1dfc6efc868dd933fe2f5d129b85b3955738b9094e16b96bc621eec99bea5a385e6d2d9e08127f3109dbbb3a097ba5c09590918901cbf9b151e048655dbdf873434a1ac35bd2e260c1933c5afc4413790f34f15f6ff42a266f87f4e4dc2ec156f5904c6e9206a736078b5bf55bc1134d033c451d5cc5bbf9b78b9ced50765749c75b92b025a74c3463c981a2feed21f3c5c381e0af1070a9092f102871ddf17d15812dec537d7de81f8cc66fb607b96831c688163f14460fd8ade0ddea18754e82b806b165a3cdadbd0104929d9691f8798db97e934c0b76d4b9b9248efdcdf1b57202f95311a9065a0a24f20fd138b4250cf4d70265ffcc1ff161578b9a1202c39530b5eee948992790e09b8695a28794f1fce29fe4ab17f9bb8b02a9e2c89b5611308ba5fef71415fda6f2369d107a6887b8d4b774d02ec08b141d8a0514c3d371bb1ef894b1e89c934e237f0928af4a30fabe1d0bde527bbdd1bcb154feb0d3a48e056b0dd2793a89d39e7a833635851783ec21592e7bd66b088f5216d2df8bf4620a773bf5076baa415c3fde85f57cd2ca8489c033403102ac8da3825ee1b1b4f04d251a00551dade1c9c624891cfd1ae596fb199abaedd9eabcfaa1423c4260cb7fbbc31e27a0fb5370070c061d9156cf15f757e5244712aff7b70afcca695f1c99f360d60d345e64bb3ecdf0d25192f60fec46072c7318202d2308202ce020101308187308181310b300906035504061302495431183016060355040a0c0f496e666f4365727420532e702e412e310c300a060355040b0c03545341311a301806035504610c1156415449542d3037393435323131303036312e302c06035504030c25496e666f436572742054696d65205374616d70696e6720417574686f72697479203320434c02010e300d06096086480165030402010500a082011b301a06092a864886f70d010903310d060b2a864886f70d0109100104302f06092a864886f70d0109043122042045e501f73af4bb1384383272d4a042ff75b1469a73d0e4d9b9039c576ceb3ada3081cb060b2a864886f70d010910022f3181bb3081b83081b53081b2042061cc077e1b1525931695f377fafaf7339803a74d83f884e6a58593d5564e648c30818d308187a48184308181310b300906035504061302495431183016060355040a0c0f496e666f4365727420532e702e412e310c300a060355040b0c03545341311a301806035504610c1156415449542d3037393435323131303036312e302c06035504030c25496e666f436572742054696d65205374616d70696e6720417574686f72697479203320434c02010e300d06092a864886f70d010101050004820100d0a201e19b03e8a0a8bfb317e3c60d42c167f62acec041b1d25e34e3a727f56c29cec9b463a4f0f5ff02d0b22a660697db42cda9fca4194b0c32bba8f6541c42b6a54117282e77b5bad87b6ee12d0f656e3c09c0223a3efad3e0fbf10282a7147fd81a8f85a6cd09f27e8bf632287a7ea865d6537ad52bb78acc75b743bc07b9921d6974b77e503b522851b700457088fa626e52ae41f2a90fa5c2c768baa6fff30b7e17860671844f11d1ebe4c8cc1396b91cf33455cc910697e43c505819e936c71ff6b73fa9de74e0b5231e4748c30ee1092de9ef370e0ba5964173fe162c2a1cfcd55c8bc0de7eed82eb453d86c320c5c0cfae062ca780271bf0631bf31c0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000>
+/ByteRange [0 33556 74518 1788]                
+>>
+endobj
+4 0 obj
+<<
+/Type /Page
+/MediaBox [0.0 0.0 612.0 792.0]
+/Parent 2 0 R
+/Contents 6 0 R
+/Resources 7 0 R
+/Annots [14 0 R]
+>>
+endobj
+17 0 obj
+<<
+/N 19 0 R
+>>
+endobj
+18 0 obj
+<<
+/Helv 20 0 R
+/ZaDb 21 0 R
+>>
+endobj
+19 0 obj
+<<
+/Length 8
+/Type /XObject
+/Subtype /Form
+/FormType 1
+/Matrix [1 0 0 1 0 0]
+/Resources 22 0 R
+/BBox [0.0 0.0 0.0 0.0]
+/Filter /FlateDecode
+>>
+stream
+xú    
+endstream
+endobj
+20 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Name /Helv
+/Encoding /WinAnsiEncoding
+>>
+endobj
+21 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /ZapfDingbats
+/Name /ZaDb
+>>
+endobj
+22 0 obj
+<<
+/XObject 23 0 R
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+>>
+endobj
+23 0 obj
+<<
+/FRM 24 0 R
+>>
+endobj
+24 0 obj
+<<
+/Length 0
+/Type /XObject
+/Subtype /Form
+/FormType 1
+/Matrix [1 0 0 1 0 0]
+/Resources 25 0 R
+/BBox [0.0 0.0 0.0 0.0]
+>>
+stream
+
+endstream
+endobj
+25 0 obj
+<<
+/XObject 26 0 R
+>>
+endobj
+26 0 obj
+<<
+/n0 27 0 R
+>>
+endobj
+27 0 obj
+<<
+/Length 18
+/Type /XObject
+/Subtype /Form
+/FormType 1
+/Matrix [1 0 0 1 0 0]
+/Resources 28 0 R
+/BBox [0.0 0.0 0.0 0.0]
+/Filter /FlateDecode
+>>
+stream
+xúSUp	v IÃÀÊ Wœ
+endstream
+endobj
+28 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+>>
+endobj
+xref
+0 2
+0000000000 65535 f
+0000033089 00000 n
+4 1
+0000074577 00000 n
+14 15
+0000033243 00000 n
+0000033381 00000 n
+0000033416 00000 n
+0000074706 00000 n
+0000074738 00000 n
+0000074786 00000 n
+0000074973 00000 n
+0000075083 00000 n
+0000075169 00000 n
+0000075253 00000 n
+0000075287 00000 n
+0000075445 00000 n
+0000075483 00000 n
+0000075516 00000 n
+0000075714 00000 n
+trailer
+<<
+/Root 1 0 R
+/ID [<8592CE4B473DD4BC6C811BF7074AF4E7> <FE3E33EBA3C621FB7D29DE07520FC2B3>]
+/Size 29
+/Prev 32664
+>>
+startxref
+75782
+%%EOF

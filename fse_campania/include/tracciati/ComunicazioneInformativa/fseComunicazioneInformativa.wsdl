@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions xmlns:ricevutans="http://comunicazioneinformativaricevuta.xsd.fse.ini.finanze.it" xmlns:richiestans="http://comunicazioneinformativarichiesta.xsd.fse.ini.finanze.it" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://comunicazioneinformativa.wsdl.fse.ini.finanze.it" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://comunicazioneinformativa.wsdl.fse.ini.finanze.it">
+	<wsdl:types>
+		<xsd:schema elementFormDefault="qualified">
+			<xsd:import namespace="http://comunicazioneinformativarichiesta.xsd.fse.ini.finanze.it" schemaLocation="ComunicazioneInformativaRichiesta.xsd"/>
+		</xsd:schema>
+		<xsd:schema elementFormDefault="qualified">
+			<xsd:import namespace="http://comunicazioneinformativaricevuta.xsd.fse.ini.finanze.it" schemaLocation="ComunicazioneInformativaRicevuta.xsd"/>
+		</xsd:schema>
+	</wsdl:types>
+	<wsdl:message name="ricevuta">
+		<wsdl:part name="ComunicazioneInformativaRicevuta" element="ricevutans:ComunicazioneInformativaRicevuta"/>
+	</wsdl:message>
+	<wsdl:message name="richiesta">
+		<wsdl:part name="ComunicazioneInformativaRichiesta" element="richiestans:ComunicazioneInformativaRichiesta"/>
+	</wsdl:message>
+	<wsdl:portType name="comunicazioneInformativaPT">
+		<wsdl:operation name="comunicazioneInformativa">
+			<wsdl:input message="tns:richiesta"/>
+			<wsdl:output message="tns:ricevuta"/>
+		</wsdl:operation>
+	</wsdl:portType>
+	<wsdl:binding name="comunicazioneInformativaBinding" type="tns:comunicazioneInformativaPT">
+		<soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+		<wsdl:operation name="comunicazioneInformativa">
+			<soap:operation soapAction="http://comunicazioneinformativa.wsdl.fse.ini.finanze.it/ComunicazioneInformativa"/>
+			<wsdl:input>
+				<soap:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal"/>
+			</wsdl:output>
+		</wsdl:operation>
+	</wsdl:binding>
+	<wsdl:service name="fseComunicazioneInformativa">
+		<wsdl:port name="fseComunicazioneInformativa" binding="tns:comunicazioneInformativaBinding">
+			<soap:address location="http://localhost:9080/FseInsServicesWeb/services/fseComunicazioneInformativa"/>
+		</wsdl:port>
+	</wsdl:service>
+</wsdl:definitions>

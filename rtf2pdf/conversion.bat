@@ -1,0 +1,1 @@
+soffice "-env:UserInstallation=file://C:/web/Republic/rtf2pdf/temp" --headless --convert-to pdf:writer_pdf_Export C:/web/Republic/allegati_sgq/modelli/Cartella_clinica_-_Frontespizio.rtf --outdir C:/web/Republic/modelli_word/stampe_ccd_temp

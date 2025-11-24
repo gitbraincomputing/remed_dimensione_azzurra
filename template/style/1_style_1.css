@@ -1,0 +1,1103 @@
+/* CSS Document */
+.domini a{
+	text-decoration: none;
+	color:#000000;
+	width:180px;
+	float:left;
+}
+
+.domini a:hover{
+	text-decoration: none;
+	color:#990000;
+}
+body{
+	background-color: #8ea6b2;
+	background-image:url(http://www.networkmatrimonio.it/images/sfondo_1.jpg);
+	background-repeat: repeat;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	padding: 0px;
+	margin: 0px 0 25px 0;
+	color: #000;
+}
+
+img{
+	border:none;
+}
+
+
+
+
+a{
+	text-decoration: none;
+	color: #990000;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #990000;
+}
+
+p{	
+	margin:0;
+	padding: 0;
+}	
+
+.news_sinistra_lato p{
+	border-bottom: 2px dotted #e8e6d9;
+	padding: 5px 0 5px 0;
+	margin-bottom: 3px;
+}
+
+.news_sinistra_lato h4 {
+	font-size: 9px;
+	text-transform: lowercase;
+}
+
+p.fierelinea{
+	border-bottom: 2px dotted #e8e6d9;
+	padding: 5px 0 5px 0;
+	margin-bottom: 3px;
+}
+
+p.fierelinea h4{
+	font-size: 15px;
+}
+
+.box_home_big_sx h4, .box_home_big_sx h4 a, .box_home_big_sx_mod h4, .box_home_big_sx_mod h4 a  {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 31px;
+	margin: 0;
+	padding: 0px 0 10px 0;
+	color: #184762;
+	line-height: 35px;
+	clear: both;
+}
+
+
+
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 31px;
+	margin: 0;
+	padding: 0px 0 10px 0;
+	color: #184762;
+	line-height: 35px;
+	clear: both;
+}
+
+h3 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-size: 18px;
+	margin: 0;
+	padding: 5px 0 20px 0;
+	color: #990000;
+	
+}
+
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+	margin: 0;
+	padding: 0px 0 10px 0;
+	color: #000;
+	width: 100%;
+}
+
+h4{
+	color: #990000;
+	font-weight: bold;
+	font-size: 9px;
+	margin: 0px;
+	padding: 4px 0 2px 0;
+}
+
+h4.fierehome{
+	text-transform: uppercase;
+	float: left;
+	width: 100%;
+}
+
+img.fierehome{
+	padding-bottom: 10px;
+}
+
+.tabella_centrale{
+	width: 983px;
+}
+
+.centrale{
+	float: left;
+	text-align: left;
+	background-color: #FFFFFF;
+	width: 953px;
+	padding: 10px 15px 15px 15px;
+	margin: 0;
+}
+
+.altri_siti{
+	float: left;
+	text-align: left;
+	width: 953px;
+	padding: 10px 15px 15px 15px;
+}
+
+.altri_siti a{
+	text-decoration: none;
+	color: #000066;
+	width: 32%;
+	padding-right: 4px;
+	float: left;
+	text-align: left;
+}
+
+.altri_siti a:hover{
+	text-decoration: underline;
+}
+
+.footer{
+	float: left;
+	text-align: left;
+	width: 953px;
+	padding: 10px 15px 15px 15px;
+	margin: 0;
+}
+
+.cappelletto{
+	float: left;
+	text-align: center;
+	width: 952px;
+	color: #a5a5a5;
+	height: 40px;
+	margin: 0;
+	padding: 0;
+}
+
+.cappelletto h1{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	padding: 0px;
+	margin: 0px;
+	color: #000;
+	color: #a5a5a5;
+	line-height:1;
+}
+
+
+
+.testata{
+	float: left;
+	width: 952px;
+	border-bottom: 4px solid #a5a5a5;
+
+	margin: 0;
+	padding: 0;
+}
+
+.testata_sinistra{
+	float: left;
+	width: 634px;
+	margin: 0;
+	padding: 0px;
+}
+
+.testata_destra{
+	float: left;
+	width: 317px;
+	margin: 0;
+	padding: 0px;
+}
+
+.loading{
+	 float: left; border: 0;background-image:url(http://www.networkmatrimonio.it/images/shopper.gif); background-position: center; background-repeat:no-repeat; height: 94px; width: 83px; margin:0; padding: 15px 0 0 10px;
+}
+.barra_briciola{
+	float: left;
+	width: 952px;
+	margin: 0;
+	padding: 8px 0 8px 0;
+}
+
+.barra_briciola a{
+	text-decoration: none;
+	color: #f471bf;
+}
+
+.barra_briciola a:hover{
+	text-decoration: underline;
+	color: #f471bf;
+}
+
+.home_sinistra{
+	float: left;
+	width: 622px;
+	margin: 0 14px 0 0;
+	padding: 0;
+	line-height: 14px;
+}
+
+.home_destra{
+	float: left;
+	width: 316px;
+	margin: 0;
+	padding: 0;
+	line-height: 14px;
+}
+
+.footer_destra{
+	float: left;
+	width: 316px;
+	margin: 0;
+	padding: 0;
+	line-height: 14px;
+	text-align: right;
+}
+
+
+.bordino {
+	border:1px solid #a5a5a5;
+	float: left;
+}
+
+.menu_box{
+	float: left;
+	width: 635px;
+	margin: 0px;
+	padding: 10px 0 0 0;
+	clear: both;
+}
+
+.menu_sel a{
+	float: left;
+	height: 33px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #a5a5a5;
+	border-right: 1px solid #a5a5a5;
+	font-size: 13px;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 4px 7px 0 7px;
+	text-align: center;
+}
+
+
+.menu_ultimo_sel a{
+	float: left;
+	height: 33px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #a5a5a5;
+	font-size: 13px;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 4px 0px 0 7px;
+	text-align: center;
+}
+
+
+.menu_ a{
+	float: left;
+	height: 33px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #91a7b4;
+	border-right: 1px solid #a5a5a5;
+	font-size: 13px;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 4px 7px 0 7px;
+	text-align: center;
+}
+
+.menu_ a:hover{
+	float: left;
+	height: 33px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #f471bf;
+	border-right: 1px solid #a5a5a5;
+	font-size: 13px;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 4px 7px 0 7px;
+	text-align: center;
+}
+
+.menu_ultimo_ a{
+	float: left;
+	height: 33px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #91a7b4;
+	font-size: 13px;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 4px 0px 0 7px;
+	text-align: center;
+}
+
+.menu_ultimo_ a:hover{
+	float: left;
+	height: 33px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #f471bf;
+	font-size: 13px;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 4px 0px 0 7px;
+	text-align: center;
+}
+
+.menu_ultimo_ em{
+	font-size: 9px;
+	font-weight:normal;
+}
+
+.menu_ em{
+	font-size: 9px;
+	font-weight:normal;
+}
+
+.menu_ultimo_sel em{
+	font-size: 9px;
+	font-weight:normal;
+}
+
+.menu_sel em{
+	font-size: 9px;
+	font-weight:normal;
+}
+
+/**************
+	CLASSI HOME
+*******************/
+
+.box_home_big{
+	float: left;
+	width: 622px;
+	margin: 0 0 15px 0;
+	padding: 10px 0 0 0;
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+
+.box_home_big_sx{
+	float: left;
+	width: 337px;
+	margin: 0 0 0px 0;
+	padding: 160px 15px 15px 15px ;
+}
+
+
+/******** 
+	modifica per sez altre
+***********/
+.box_home_big_mod{
+	float: left;
+	width: 564px;
+	margin: 0 0 15px 0;
+	padding: 10px 0 0 0;
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+
+.box_home_big_sx_mod{
+	float: left;
+	width: 279px;
+	margin: 0 0 0px 0;
+	padding: 160px 15px 15px 15px ;
+}
+/******** 
+	modifica per sez altre
+***********/
+
+
+.box_home_big_sx, .box_home_big_sx_mod p{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 17px;
+	line-height: 20px;
+	color: #184762;
+	margin: 0;
+}
+
+.box_home_big_dx{
+	float: left;
+	width: 240px;
+	margin: 0 0 0px 0;
+	padding: 15px 15px 15px 0;
+}
+
+.box_home_blocchetto{
+	float: left;
+	width: 234px;
+	margin: 0 0 5px 0;
+	padding: 3px;
+	background-color: #FFF;
+	filter: alpha(opacity=80);
+	-moz-opacity:.80;
+	opacity:.80;
+}
+
+.box_home_blocchetto p{
+	margin: 0;
+	padding: 0;
+	color: #666;
+}
+
+.box_home_big_dw{
+	float: left;
+	width: 592px;
+	margin: 0 0 0px 0;
+	padding: 15px;
+	border-top: 10px solid #FFF;
+}
+
+.box_home_big_dw_sfondo{
+	float:left;
+	width: 592px;
+	margin: 0 0 0px 0;
+	padding: 0px;
+	background-color: #FFFFFF;
+	filter: alpha(opacity=80);
+	-moz-opacity:.80;
+	opacity:.80;
+}
+
+.box_home_big_dw_blocco{
+	float: left;
+	width: 177px;
+	margin: 0 0 0px 0;
+	padding: 10px;
+}
+
+.box_home_big_dw_blocco p{
+	margin: 0;
+	padding: 4px 0 0 0;
+	color: #666;
+}
+
+.foto_news_small_home{
+	float: left;
+	height: 96px;
+	width: 96px;
+	margin: 0 10px 0 0;
+	padding: 0;
+	background-position: center center;
+	background-repeat:no-repeat;
+	filter: alpha(opacity=100);
+	-moz-opacity:1.0;
+	opacity:1.0;
+}
+
+.foto_vetrina_small_home{
+	float: right;
+	width: 96px;
+	height: 96px;
+	padding: 0 0px 0 0;
+	background-position: center center;
+	background-repeat:no-repeat;
+}
+
+.blocco_bordo{
+	float: left;
+	width: 572px;
+	border: 10px solid #e8e6d9;
+	padding: 15px;
+	margin: 0 0 15px 0;
+	background-image:url(http://www.networkmatrimonio.it/images/sfondo_freccette.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+
+
+.blocco_bordo_home_vetrina{
+	float: left;
+	width: 296px;
+	border: 10px solid #e8e6d9;
+	padding: 0;
+	margin: 0 0 15px 0;
+	background-color: #e8e6d9;
+}
+
+.blocco_home_vetrina{
+	float: left;
+	width: 286px;
+	background-color: #beb89e;
+	border-bottom: 1px solid #9b9a95;
+	padding: 5px;
+	margin: 0 0 10px 0;
+	}
+	.blocco_home_vetrina p{
+		width: 180px;
+		float: left;
+	}
+	.blocco_home_vetrina h2{
+		width: 180px;
+		float: left;
+	}
+.blocco_bordo_small{
+	float: left;
+	width: 286px;
+	border: 10px solid #e8e6d9;
+	padding: 10px 0 10PX 10PX;
+	margin: 0 0 15px 0;
+	
+}
+
+.blocco_bordo_small p{
+	padding: 0px 10PX 5PX 0;
+	margin: 0 0 15px 0;	
+	font-size: 11px;
+}
+
+.blocco_bordo_small h3 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-size: 14px;
+	margin: 0;
+	padding: 5px 0 15px 0;
+	color: #990000;
+}
+
+.blocco_bordo_big{
+	float: left;
+	width: 902px;
+	border: 10px solid #e8e6d9;
+	padding: 15px;
+	margin: 0 0 0 0;
+	background-image:url(http://www.networkmatrimonio.it/images/sfondo_freccette.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+
+.blocco_home_stacco{
+	padding: 0 0 15px 0;
+	margin: 0;
+	float: left;
+}
+
+.blocco_home_sx_small{
+	float: left;
+	width: 156px;
+	border-top: 3px solid #e8e6d9;
+	border-bottom: 3px solid #e8e6d9;
+	margin: 0 5px 0px 0;
+	padding: 5px 0 5px 0;
+}
+
+.blocco_home_sx_small p{
+	padding: 10px 0 0 0;
+}
+
+.banner_home_centrale{
+	float: left;
+	border: 2px solid #e8e6d9;
+	width: 450px;
+	margin: 0 0px 0px 7px;
+}
+
+.banner_1{
+	float: left;
+	margin: 0 0px 15px 0;
+}
+
+.banner_home_destra{
+	float: left;
+	width: 315px;
+	margin: 0 0px 15px 0;
+}
+
+
+/*******************************
+	CLASSI INTERNE
+*******************************/
+
+.color1 {
+	 color: #98aeb9;
+}
+
+.color2{
+	color: #990000;
+}
+
+.altre_laterale_spaziatura1 {
+	padding: 5px;
+	width: 165px;	
+}
+
+.altre_laterale_spaziatura0 {
+	padding: 0px;
+	width: 175px;	
+}
+
+.altre_laterale{
+	float: left;
+	margin:0;
+	padding:0;
+	width: 175px;
+}
+
+.altre_laterale_destra{
+	float: right;
+	margin:0;
+	padding:0;
+	width: 175px;
+}
+
+
+.altre_centrale{
+	float: left;
+	margin:0;
+	padding:0 19px 0 19px;
+	width: 564px;
+}
+
+.contenitore_centrale{
+	float: left;
+	margin:0;
+	padding:0;
+	width: 602px;
+}
+
+.altre_centrale_news{
+	float: left;
+	margin:0;
+	padding:0 19px 0 19px;
+	width: 564px;
+}
+
+.altre_dovetisposi{
+	float: left;
+	margin:0 0 15px 0;
+	padding:5px;
+	width: 165px;
+	background-color:#e8e4d8;
+}
+
+.altre_blocchi_sx{
+	float: left;
+	margin:0 0 0px 0;
+}
+
+.altre_menu_sx_sel a{
+	width: 170px;
+	color: #FFF;
+	border-bottom: 1px solid #d2dbe0;
+	margin: 0;
+	padding: 3px 0 3px 5px;
+	float: left;
+	background-color: #234c62;
+	text-decoration:none;
+}
+
+.altre_menu_sx a{
+	width: 170px;
+	color: #646464;
+	border-bottom: 1px solid #d2dbe0;
+	margin: 0;
+	padding: 3px 0 3px 5px;
+	float: left;
+}
+
+.altre_menu_sx a:hover{
+	width: 170px;
+	color: #244d63;
+	border-bottom: 1px solid #d2dbe0;
+	margin: 0;
+	padding: 3px 0 3px 5px;
+	float: left;
+	background-color:#d2dbe0;
+	text-decoration:none;
+}
+
+.altre_sottomenu_sx_sel a{
+	width: 160px;
+	color: #244d63;
+	border-bottom: 1px solid #FFF;
+	margin: 0;
+	padding: 3px 0 3px 15px;
+	float: left;
+	background-color: #d2dbe0;
+	text-decoration:none;
+	font-weight: bold;
+}
+
+.altre_sottomenu_sx a{
+	width: 160px;
+	color: #244d63;
+	border-bottom: 1px solid #FFF;
+	background-color: #e8edf0;
+	margin: 0;
+	padding: 3px 0 3px 15px;
+	float: left;
+}
+
+.altre_sottomenu_sx a:hover{
+	width: 160px;
+	color: #244d63;
+	border-bottom: 1px solid #d2dbe0;
+	margin: 0;
+	padding: 3px 0 3px 15px;
+	float: left;
+	background-color:#d2dbe0;
+	text-decoration:none;
+}
+
+.altre_banner_sx{
+	margin: 15px 0;
+	border: 12px solid #e8e6d9;
+}
+
+.altre_colonna_esercente_banner{
+	border: 1px solid #92a8b5;
+	width: 170px;
+}
+
+.altre_banner_top_pagina{
+	margin: 5px 0 20px 0;
+	border: 1px solid #92a8b5;
+	width: 562px;
+}
+
+.news_banner_top_pagina{
+	margin: 0px 0 20px 0;
+	border: 1px solid #92a8b5;
+	width: 562px;
+}
+
+.altre_fiere{
+	margin: 5px 0 0 0;
+}
+
+.altre_banner_esercente{
+	border: 10px solid #FFF;
+	padding: 0;
+	margin: 0 0 15px 0;
+	float: left;
+}
+
+.altre_banner_lungo{
+	border: 10px solid #e8e6d9;
+	padding: 0;
+	margin: 0 0 15px 0;
+	float: left;
+}
+
+.red_pulsante{
+	background-color: #860f0b;
+}
+
+.a-red a{
+	float: left;
+	margin: 10px 0 5px 0;
+	padding: 5px 10px 5px 5px;
+	background-color: #860f0b;
+	color: #FFF;
+	text-decoration: none;
+	text-align: right;
+	width:75%;
+}
+.a-red_s a{
+	float: right;
+	margin: 10px 0 5px 0;
+	padding: 5px 10px 5px 5px;
+	background-color: #860f0b;
+	color: #FFF;
+	text-decoration: none;
+	text-align: right;
+	width:150px;
+}
+.a-red_p a{
+	float: left;
+	margin: 10px 10px 5px 0;
+	padding: 5px 5px 5px 10px;
+	background-color: #860f0b;
+	color: #FFF;
+	text-decoration: none;
+	text-align: left;
+	width:150px;
+}
+
+.a-red_p_no{
+	float: left;
+	margin: 10px 10px 5px 0;
+	padding: 5px 5px 5px 10px;
+	color: #FFF;
+	text-decoration: none;
+	text-align: left;
+	width:150px;
+}
+
+
+
+.altre_community{
+	float: left;
+	margin:0 0 15px 0;
+	padding:5px;
+	width: 145px;
+	background-color:#FFF;
+	border: 10px solid #e8e6d9;
+	background-image:url(http://www.networkmatrimonio.it/images/sfondo_community.gif);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+}
+
+.altre_messaggio_centrale{
+	float: left;
+	margin:0 0 15px 0;
+	padding: 11px 5px 11px 45px;
+	width: 514px;
+	color: #576b76;
+	font-size:12px;
+	background-color: #c6d2d8;
+	background-image: url(http://www.networkmatrimonio.it/images/esclamativo.gif);
+	background-position: left center;
+	background-repeat: no-repeat;
+}	
+
+
+
+.altre_riga_esercenti{
+	float: left;
+	margin:0 0 20px 0;
+	padding: 0 0 15px 0;
+	width: 564px;
+	background-image:url(http://www.networkmatrimonio.it/images/separatore_blocchi.jpg);
+	background-position: bottom left;
+	background-repeat: no-repeat;
+}
+
+.altre_colonna_esercente{
+	float: left;
+	margin:0 21px 0 0;
+	padding: 0 0 0 0;
+	width: 174px;
+}
+
+.altre_centrale h1{
+	color: #beb79b;
+	font-weight: bold;
+	font-size: 22px; 
+	margin: 5px 0 0px 0;
+	padding: 0;
+}
+
+.altre_centrale p{
+	float: left;
+	margin: 5px 0 20px 0;
+	padding: 0;
+	font-size:11px;
+	line-height: 17px;
+}
+
+.altre_colonna_esercente  h2{
+	color: #990000;
+	margin: 0 0 0 0;
+	padding: 0;
+	height: 29px;
+	font-size: 10px;
+	float: left;
+}
+
+.altre_colonna_esercente  h4{
+	color: #224c64;
+	margin: 0 0 0 0;
+	padding: 5px 0 0 0;
+	font-weight: bold;
+}
+
+.altre_colonna_esercente  h4 em{
+	color: #666;
+	font-weight: normal;
+	font-style:normal;
+}
+
+.altre_colonna_esercente p{
+	margin: 10px 0 0 0;
+	padding: 0;
+	float: left;
+	font-size: 9px;
+	line-height: 14px;
+}
+
+.blocco_home_vetrina .altre_colonna_esercente_img {
+	float: right;
+	cursor: pointer;
+	width: 93px;
+	height: 93px;
+	margin: 0 0 0 0;
+	padding: 0;
+	background-repeat: no-repeat;
+	background-color: #224c64;
+	background-position: top left;
+	overflow: hidden;
+	text-align:right;
+}
+
+.blocco_home_vetrina .altre_colonna_esercente_img img {
+
+}
+
+.altre_colonna_esercente_img {
+	float: left;
+	cursor: pointer;
+	width: 174px;
+	height: 93px;
+	margin: 10px 0 0 0;
+	padding: 0;
+	background-repeat: no-repeat;
+	background-color: #224c64;
+	background-position: top left;
+}
+
+.altre_colonna_news_img {
+	float: left;
+	cursor: pointer;
+	width: 174px;
+	height: 93px;
+	margin: 5px 0 10px 0;
+	padding: 0;
+	background-repeat: no-repeat;
+	background-color: #224c64;
+	background-position: top left;
+}
+
+.altre_box_foto {
+	float: left;
+	width: 564px;
+	margin: 5px 0 0 0;
+	padding: 0;
+}
+
+.altre_foto_principale_loading{
+	float: left;
+	width: 467px;
+	height: 254px;
+	background: url(http://www.networkmatrimonio.it/images/ajax-loader-foto.gif) center center no-repeat #FFF;
+	margin: 0 0 16px 0;
+}
+
+#altre_foto_principale {
+	float: left;
+	width: 467px;
+	height: 254px;
+	margin: 0 0 16px 0;
+	padding: 0;
+	background-color: #FFF;
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+
+.altre_foto_piccole{
+	float: right;
+	width: 84px;
+	height: 73px;
+	margin: 0 0 17px 12px;
+	padding: 0;
+	background-color: #CCCCCC;
+	background-position: center;
+	background-repeat:no-repeat;
+	cursor: pointer;
+}
+
+.altre_informazioni_scheda{
+	float:left;
+	margin:0pt 16px 0pt 0pt;
+	padding:0px 0px 7px 0pt;
+	width:47%;
+}
+
+.altre_box_informazioni{
+	float:left;
+	margin: 0 0 20px 0;
+	padding:0;
+	width: 564px;
+}
+
+.altre_box_informazioni_riga {
+	float:left;
+	margin: 0 0 0px 0;
+	padding:0;
+	width: 564px;
+	border-bottom:1px dotted #CCCCCC;
+}
+
+.foto_news_interna {
+	width: 174px; margin: 5px 20px 10px 0;
+}
+
+.numeri_pag {
+	float: left;
+	margin: 0px;
+	text-align: center;
+	width: 200px;
+	color: #990000;
+	line-height: 20px;
+}
+
+.numeri_pag a {
+	text-decoration: none;
+	color: #000;
+	margin: 0;
+	padding: 0;
+}
+
+/********************************
+	form e co
+***********************************/
+
+.input_scheda {
+	border: 1px solid #c6d2d8;
+	background-color: #c6d2d8;
+	width: 90%;
+	margin: 2px 0 0 0;
+	padding: 2px;
+}
+
+.input_scheda2 {
+	border: 1px solid #c6d2d8;
+	background-color: #c6d2d8;
+	width: 80%;
+	margin: 2px 0 0 0;
+	padding: 2px;
+	float: left;
+}
+
+
+.input_scheda:focus {
+	border: 1px solid #c6d2d8;
+	background-color: #FFF;
+}
+
+.altezzaminima{
+	min-height:255px;
+}
+
+/********************************
+	lettore rss
+***********************************/
+#pscroller1{
+float: left;
+width: 100%;
+border: none;
+height: 16px;
+padding: 0px;
+}
+
+.rssclass .rsstitle{
+font-weight: bold;
+}
+
+.rssclass .rssdate{
+color: gray;
+font-size: 9px;
+}
+
+.rssclass a{
+text-decoration: none;
+}
+
+div#blocco_altre_news_2{
+	display: none;
+visibility: hidden;
+}
