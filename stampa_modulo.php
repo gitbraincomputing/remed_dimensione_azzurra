@@ -31,16 +31,16 @@ $intestazione_str = $row_st['intestazione'];
 $piede_str = $row_st['piede'];
 mssql_free_result($result);
 
-
-if (isset($_REQUEST['modello'])) $modello = $_REQUEST['modello'];
-if (isset($_REQUEST['consenso'])) $consenso = $_REQUEST['consenso'];
-if (isset($_REQUEST['idcartella'])) $idcartella = $_REQUEST['idcartella'];
-if (isset($_REQUEST['idarea'])) $idarea = $_REQUEST['idarea'];
-if (isset($_REQUEST['idpaziente'])) $idpaziente = $_REQUEST['idpaziente'];
-if (isset($_REQUEST['idinserimento'])) $idinserimento = $_REQUEST['idinserimento'];
-if (isset($_REQUEST['idmodulopadre'])) $idmodulopadre = $_REQUEST['idmodulopadre'];
-if (isset($_REQUEST['idmoduloversione'])) $idmoduloversione = $_REQUEST['idmoduloversione'];
-if (isset($_REQUEST['all'])) $all = $_REQUEST['all'];
+// Inizializzazione variabili per evitare Notice
+$modello = isset($_REQUEST['modello']) ? $_REQUEST['modello'] : null;
+$consenso = isset($_REQUEST['consenso']) ? $_REQUEST['consenso'] : null;
+$idcartella = isset($_REQUEST['idcartella']) ? $_REQUEST['idcartella'] : null;
+$idarea = isset($_REQUEST['idarea']) ? $_REQUEST['idarea'] : null;
+$idpaziente = isset($_REQUEST['idpaziente']) ? $_REQUEST['idpaziente'] : null;
+$idinserimento = isset($_REQUEST['idinserimento']) ? $_REQUEST['idinserimento'] : null;
+$idmodulopadre = isset($_REQUEST['idmodulopadre']) ? $_REQUEST['idmodulopadre'] : null;
+$idmoduloversione = isset($_REQUEST['idmoduloversione']) ? $_REQUEST['idmoduloversione'] : null;
+$all = isset($_REQUEST['all']) ? $_REQUEST['all'] : '';
 
 if ($idmoduloversione != "") {
     $result_file = Stampa_Modulo_Segnalibro($idmoduloversione);
