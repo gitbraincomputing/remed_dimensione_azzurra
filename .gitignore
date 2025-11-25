@@ -1,2 +1,5 @@
 modelli_word/stampe/
 firmadigitale/send_prompt_ai.php
+firmadigitale/pdf/tmp*
+allegati_utenti/sanitari
+allegati_utenti/amministrativi
